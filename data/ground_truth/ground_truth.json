@@ -1,0 +1,2045 @@
+[
+  {
+    "case_id": "CASE-0001",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10001"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50001"
+    ],
+    "settlement_id": "SET-20260825-001",
+    "bank_transaction_ids": [
+      "BANK-80001"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 2450.0,
+    "actual_bank_amount": 2450.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0002",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10002"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50002"
+    ],
+    "settlement_id": "SET-20260817-002",
+    "bank_transaction_ids": [
+      "BANK-80002"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 750.0,
+    "actual_bank_amount": 750.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0003",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10003"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50003"
+    ],
+    "settlement_id": "SET-20260816-003",
+    "bank_transaction_ids": [
+      "BANK-80003"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 24000.0,
+    "actual_bank_amount": 24000.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0004",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10004"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50004"
+    ],
+    "settlement_id": "SET-20260821-004",
+    "bank_transaction_ids": [
+      "BANK-80004"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18900.0,
+    "actual_bank_amount": 18900.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0005",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10005"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50005"
+    ],
+    "settlement_id": "SET-20260821-005",
+    "bank_transaction_ids": [
+      "BANK-80005"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 6200.0,
+    "actual_bank_amount": 6200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0006",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10006"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50006"
+    ],
+    "settlement_id": "SET-20260819-006",
+    "bank_transaction_ids": [
+      "BANK-80006"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18900.0,
+    "actual_bank_amount": 18900.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0007",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10007"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50007"
+    ],
+    "settlement_id": "SET-20260822-007",
+    "bank_transaction_ids": [
+      "BANK-80007"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 3999.0,
+    "actual_bank_amount": 3999.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0008",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10008"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50008"
+    ],
+    "settlement_id": "SET-20260815-008",
+    "bank_transaction_ids": [
+      "BANK-80008"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 12500.0,
+    "actual_bank_amount": 12500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0009",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10009"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50009"
+    ],
+    "settlement_id": "SET-20260816-009",
+    "bank_transaction_ids": [
+      "BANK-80009"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 12500.0,
+    "actual_bank_amount": 12500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0010",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10010"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50010"
+    ],
+    "settlement_id": "SET-20260819-010",
+    "bank_transaction_ids": [
+      "BANK-80010"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 3999.0,
+    "actual_bank_amount": 3999.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0011",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10011"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50011"
+    ],
+    "settlement_id": "SET-20260816-011",
+    "bank_transaction_ids": [
+      "BANK-80011"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 6200.0,
+    "actual_bank_amount": 6200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0012",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10012"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50012"
+    ],
+    "settlement_id": "SET-20260824-012",
+    "bank_transaction_ids": [
+      "BANK-80012"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 12500.0,
+    "actual_bank_amount": 12500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0013",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10013"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50013"
+    ],
+    "settlement_id": "SET-20260823-013",
+    "bank_transaction_ids": [
+      "BANK-80013"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18900.0,
+    "actual_bank_amount": 18900.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0014",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10014"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50014"
+    ],
+    "settlement_id": "SET-20260820-014",
+    "bank_transaction_ids": [
+      "BANK-80014"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 6200.0,
+    "actual_bank_amount": 6200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0015",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10015"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50015"
+    ],
+    "settlement_id": "SET-20260820-015",
+    "bank_transaction_ids": [
+      "BANK-80015"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 24000.0,
+    "actual_bank_amount": 24000.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0016",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10016"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50016"
+    ],
+    "settlement_id": "SET-20260823-016",
+    "bank_transaction_ids": [
+      "BANK-80016"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 750.0,
+    "actual_bank_amount": 750.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0017",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10017"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50017"
+    ],
+    "settlement_id": "SET-20260816-017",
+    "bank_transaction_ids": [
+      "BANK-80017"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18900.0,
+    "actual_bank_amount": 18900.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0018",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10018"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50018"
+    ],
+    "settlement_id": "SET-20260824-018",
+    "bank_transaction_ids": [
+      "BANK-80018"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8500.0,
+    "actual_bank_amount": 8500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0019",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10019"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50019"
+    ],
+    "settlement_id": "SET-20260825-019",
+    "bank_transaction_ids": [
+      "BANK-80019"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8500.0,
+    "actual_bank_amount": 8500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0020",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10020"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50020"
+    ],
+    "settlement_id": "SET-20260822-020",
+    "bank_transaction_ids": [
+      "BANK-80020"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 6200.0,
+    "actual_bank_amount": 6200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0021",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10021"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50021"
+    ],
+    "settlement_id": "SET-20260816-021",
+    "bank_transaction_ids": [
+      "BANK-80021"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 12500.0,
+    "actual_bank_amount": 12500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0022",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10022"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50022"
+    ],
+    "settlement_id": "SET-20260819-022",
+    "bank_transaction_ids": [
+      "BANK-80022"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 6200.0,
+    "actual_bank_amount": 6200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0023",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10023"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50023"
+    ],
+    "settlement_id": "SET-20260821-023",
+    "bank_transaction_ids": [
+      "BANK-80023"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8500.0,
+    "actual_bank_amount": 8500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0024",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10024"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50024"
+    ],
+    "settlement_id": "SET-20260817-024",
+    "bank_transaction_ids": [
+      "BANK-80024"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18900.0,
+    "actual_bank_amount": 18900.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0025",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10025"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50025"
+    ],
+    "settlement_id": "SET-20260825-025",
+    "bank_transaction_ids": [
+      "BANK-80025"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8500.0,
+    "actual_bank_amount": 8500.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0026",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10026"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50026"
+    ],
+    "settlement_id": "SET-20260822-026",
+    "bank_transaction_ids": [
+      "BANK-80026"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 4850.0,
+    "actual_bank_amount": 4850.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0027",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10027"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50027"
+    ],
+    "settlement_id": "SET-20260818-027",
+    "bank_transaction_ids": [
+      "BANK-80027"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 3999.0,
+    "actual_bank_amount": 3999.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0028",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10028"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50028"
+    ],
+    "settlement_id": "SET-20260818-028",
+    "bank_transaction_ids": [
+      "BANK-80028"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1200.0,
+    "actual_bank_amount": 1200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0029",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10029"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50029"
+    ],
+    "settlement_id": "SET-20260816-029",
+    "bank_transaction_ids": [
+      "BANK-80029"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1200.0,
+    "actual_bank_amount": 1200.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0030",
+    "scenario": "EXACT_MATCH",
+    "erp_order_ids": [
+      "ORD-10030"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50030"
+    ],
+    "settlement_id": "SET-20260819-030",
+    "bank_transaction_ids": [
+      "BANK-80030"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 2450.0,
+    "actual_bank_amount": 2450.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Exact 1:1 match across ERP, Gateway, and Bank statement."
+  },
+  {
+    "case_id": "CASE-0031",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10031"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50031"
+    ],
+    "settlement_id": "SET-20260817-031",
+    "bank_transaction_ids": [
+      "BANK-80031"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 3904.62,
+    "actual_bank_amount": 3904.62,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b979.98) and GST (\u20b914.40)."
+  },
+  {
+    "case_id": "CASE-0032",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10032"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50032"
+    ],
+    "settlement_id": "SET-20260825-032",
+    "bank_transaction_ids": [
+      "BANK-80032"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1171.68,
+    "actual_bank_amount": 1171.68,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b924.00) and GST (\u20b94.32)."
+  },
+  {
+    "case_id": "CASE-0033",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10033"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50033"
+    ],
+    "settlement_id": "SET-20260820-033",
+    "bank_transaction_ids": [
+      "BANK-80033"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 12205.0,
+    "actual_bank_amount": 12205.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9250.00) and GST (\u20b945.00)."
+  },
+  {
+    "case_id": "CASE-0034",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10034"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50034"
+    ],
+    "settlement_id": "SET-20260816-034",
+    "bank_transaction_ids": [
+      "BANK-80034"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 8299.4,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9170.00) and GST (\u20b930.60)."
+  },
+  {
+    "case_id": "CASE-0035",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10035"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50035"
+    ],
+    "settlement_id": "SET-20260819-035",
+    "bank_transaction_ids": [
+      "BANK-80035"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1171.68,
+    "actual_bank_amount": 1171.68,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b924.00) and GST (\u20b94.32)."
+  },
+  {
+    "case_id": "CASE-0036",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10036"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50036"
+    ],
+    "settlement_id": "SET-20260815-036",
+    "bank_transaction_ids": [
+      "BANK-80036"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 732.3,
+    "actual_bank_amount": 732.3,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b915.00) and GST (\u20b92.70)."
+  },
+  {
+    "case_id": "CASE-0037",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10037"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50037"
+    ],
+    "settlement_id": "SET-20260815-037",
+    "bank_transaction_ids": [
+      "BANK-80037"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 23433.6,
+    "actual_bank_amount": 23433.6,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9480.00) and GST (\u20b986.40)."
+  },
+  {
+    "case_id": "CASE-0038",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10038"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50038"
+    ],
+    "settlement_id": "SET-20260821-038",
+    "bank_transaction_ids": [
+      "BANK-80038"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 8299.4,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9170.00) and GST (\u20b930.60)."
+  },
+  {
+    "case_id": "CASE-0039",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10039"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50039"
+    ],
+    "settlement_id": "SET-20260821-039",
+    "bank_transaction_ids": [
+      "BANK-80039"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 34174.0,
+    "actual_bank_amount": 34174.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9700.00) and GST (\u20b9126.00)."
+  },
+  {
+    "case_id": "CASE-0040",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10040"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50040"
+    ],
+    "settlement_id": "SET-20260825-040",
+    "bank_transaction_ids": [
+      "BANK-80040"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 8299.4,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9170.00) and GST (\u20b930.60)."
+  },
+  {
+    "case_id": "CASE-0041",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10041"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50041"
+    ],
+    "settlement_id": "SET-20260816-041",
+    "bank_transaction_ids": [
+      "BANK-80041"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 23433.6,
+    "actual_bank_amount": 23433.6,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9480.00) and GST (\u20b986.40)."
+  },
+  {
+    "case_id": "CASE-0042",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10042"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50042"
+    ],
+    "settlement_id": "SET-20260825-042",
+    "bank_transaction_ids": [
+      "BANK-80042"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 23433.6,
+    "actual_bank_amount": 23433.6,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9480.00) and GST (\u20b986.40)."
+  },
+  {
+    "case_id": "CASE-0043",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10043"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50043"
+    ],
+    "settlement_id": "SET-20260819-043",
+    "bank_transaction_ids": [
+      "BANK-80043"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 2392.18,
+    "actual_bank_amount": 2392.18,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b949.00) and GST (\u20b98.82)."
+  },
+  {
+    "case_id": "CASE-0044",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10044"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50044"
+    ],
+    "settlement_id": "SET-20260818-044",
+    "bank_transaction_ids": [
+      "BANK-80044"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18453.96,
+    "actual_bank_amount": 18453.96,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9378.00) and GST (\u20b968.04)."
+  },
+  {
+    "case_id": "CASE-0045",
+    "scenario": "MDR_GST",
+    "erp_order_ids": [
+      "ORD-10045"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50045"
+    ],
+    "settlement_id": "SET-20260821-045",
+    "bank_transaction_ids": [
+      "BANK-80045"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 8299.4,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Standard settlement net of MDR (\u20b9170.00) and GST (\u20b930.60)."
+  },
+  {
+    "case_id": "CASE-0046",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10046"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50046"
+    ],
+    "settlement_id": "SET-20260818-046",
+    "bank_transaction_ids": [
+      "BANK-80046"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18453.96,
+    "actual_bank_amount": 18453.96,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-18."
+  },
+  {
+    "case_id": "CASE-0047",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10047"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50047"
+    ],
+    "settlement_id": "SET-20260821-047",
+    "bank_transaction_ids": [
+      "BANK-80047"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1171.68,
+    "actual_bank_amount": 1171.68,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-21."
+  },
+  {
+    "case_id": "CASE-0048",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10048"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50048"
+    ],
+    "settlement_id": "SET-20260824-048",
+    "bank_transaction_ids": [
+      "BANK-80048"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 2392.18,
+    "actual_bank_amount": 2392.18,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-24."
+  },
+  {
+    "case_id": "CASE-0049",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10049"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50049"
+    ],
+    "settlement_id": "SET-20260818-049",
+    "bank_transaction_ids": [
+      "BANK-80049"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 732.3,
+    "actual_bank_amount": 732.3,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-18."
+  },
+  {
+    "case_id": "CASE-0050",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10050"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50050"
+    ],
+    "settlement_id": "SET-20260822-050",
+    "bank_transaction_ids": [
+      "BANK-80050"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 732.3,
+    "actual_bank_amount": 732.3,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-22."
+  },
+  {
+    "case_id": "CASE-0051",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10051"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50051"
+    ],
+    "settlement_id": "SET-20260826-051",
+    "bank_transaction_ids": [
+      "BANK-80051"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 6053.68,
+    "actual_bank_amount": 6053.68,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-26."
+  },
+  {
+    "case_id": "CASE-0052",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10052"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50052"
+    ],
+    "settlement_id": "SET-20260822-052",
+    "bank_transaction_ids": [
+      "BANK-80052"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 2392.18,
+    "actual_bank_amount": 2392.18,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-22."
+  },
+  {
+    "case_id": "CASE-0053",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10053"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50053"
+    ],
+    "settlement_id": "SET-20260825-053",
+    "bank_transaction_ids": [
+      "BANK-80053"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 23433.6,
+    "actual_bank_amount": 23433.6,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-25."
+  },
+  {
+    "case_id": "CASE-0054",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10054"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50054"
+    ],
+    "settlement_id": "SET-20260825-054",
+    "bank_transaction_ids": [
+      "BANK-80054"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18453.96,
+    "actual_bank_amount": 18453.96,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-25."
+  },
+  {
+    "case_id": "CASE-0055",
+    "scenario": "T_PLUS_1",
+    "erp_order_ids": [
+      "ORD-10055"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50055"
+    ],
+    "settlement_id": "SET-20260826-055",
+    "bank_transaction_ids": [
+      "BANK-80055"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 732.3,
+    "actual_bank_amount": 732.3,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 1-day delay on 2026-08-26."
+  },
+  {
+    "case_id": "CASE-0056",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10056"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50056"
+    ],
+    "settlement_id": "SET-20260827-056",
+    "bank_transaction_ids": [
+      "BANK-80056"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 23433.6,
+    "actual_bank_amount": 23433.6,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-27."
+  },
+  {
+    "case_id": "CASE-0057",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10057"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50057"
+    ],
+    "settlement_id": "SET-20260819-057",
+    "bank_transaction_ids": [
+      "BANK-80057"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 34174.0,
+    "actual_bank_amount": 34174.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-19."
+  },
+  {
+    "case_id": "CASE-0058",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10058"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50058"
+    ],
+    "settlement_id": "SET-20260820-058",
+    "bank_transaction_ids": [
+      "BANK-80058"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 3904.62,
+    "actual_bank_amount": 3904.62,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-20."
+  },
+  {
+    "case_id": "CASE-0059",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10059"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50059"
+    ],
+    "settlement_id": "SET-20260818-059",
+    "bank_transaction_ids": [
+      "BANK-80059"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 4735.54,
+    "actual_bank_amount": 4735.54,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-18."
+  },
+  {
+    "case_id": "CASE-0060",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10060"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50060"
+    ],
+    "settlement_id": "SET-20260818-060",
+    "bank_transaction_ids": [
+      "BANK-80060"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 23433.6,
+    "actual_bank_amount": 23433.6,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-18."
+  },
+  {
+    "case_id": "CASE-0061",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10061"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50061"
+    ],
+    "settlement_id": "SET-20260824-061",
+    "bank_transaction_ids": [
+      "BANK-80061"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 4735.54,
+    "actual_bank_amount": 4735.54,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-24."
+  },
+  {
+    "case_id": "CASE-0062",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10062"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50062"
+    ],
+    "settlement_id": "SET-20260824-062",
+    "bank_transaction_ids": [
+      "BANK-80062"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 487.22,
+    "actual_bank_amount": 487.22,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-24."
+  },
+  {
+    "case_id": "CASE-0063",
+    "scenario": "T_PLUS_2",
+    "erp_order_ids": [
+      "ORD-10063"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50063"
+    ],
+    "settlement_id": "SET-20260819-063",
+    "bank_transaction_ids": [
+      "BANK-80063"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 4735.54,
+    "actual_bank_amount": 4735.54,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Settled with 2-day delay on 2026-08-19."
+  },
+  {
+    "case_id": "CASE-0064",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10064",
+      "ORD-10065",
+      "ORD-10066",
+      "ORD-10067"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50064",
+      "TXN-50065",
+      "TXN-50066",
+      "TXN-50067"
+    ],
+    "settlement_id": "SET-20260816-064",
+    "bank_transaction_ids": [
+      "BANK-80064"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 9764.0,
+    "actual_bank_amount": 9764.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 4 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0065",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10068",
+      "ORD-10069",
+      "ORD-10070"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50068",
+      "TXN-50069",
+      "TXN-50070"
+    ],
+    "settlement_id": "SET-20260817-065",
+    "bank_transaction_ids": [
+      "BANK-80065"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 8494.68,
+    "actual_bank_amount": 8494.68,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 3 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0066",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10071",
+      "ORD-10072",
+      "ORD-10073",
+      "ORD-10074"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50071",
+      "TXN-50072",
+      "TXN-50073",
+      "TXN-50074"
+    ],
+    "settlement_id": "SET-20260818-066",
+    "bank_transaction_ids": [
+      "BANK-80066"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 14157.8,
+    "actual_bank_amount": 14157.8,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 4 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0067",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10075",
+      "ORD-10076"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50075",
+      "TXN-50076"
+    ],
+    "settlement_id": "SET-20260818-067",
+    "bank_transaction_ids": [
+      "BANK-80067"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 7323.0,
+    "actual_bank_amount": 7323.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 2 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0068",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10077",
+      "ORD-10078",
+      "ORD-10079"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50077",
+      "TXN-50078",
+      "TXN-50079"
+    ],
+    "settlement_id": "SET-20260817-068",
+    "bank_transaction_ids": [
+      "BANK-80068"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 8982.88,
+    "actual_bank_amount": 8982.88,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 3 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0069",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10080",
+      "ORD-10081",
+      "ORD-10082",
+      "ORD-10083"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50080",
+      "TXN-50081",
+      "TXN-50082",
+      "TXN-50083"
+    ],
+    "settlement_id": "SET-20260825-069",
+    "bank_transaction_ids": [
+      "BANK-80069"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 9471.08,
+    "actual_bank_amount": 9471.08,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 4 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0070",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10084",
+      "ORD-10085"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50084",
+      "TXN-50085"
+    ],
+    "settlement_id": "SET-20260818-070",
+    "bank_transaction_ids": [
+      "BANK-80070"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 8201.76,
+    "actual_bank_amount": 8201.76,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 2 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0071",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10086",
+      "ORD-10087",
+      "ORD-10088",
+      "ORD-10089"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50086",
+      "TXN-50087",
+      "TXN-50088",
+      "TXN-50089"
+    ],
+    "settlement_id": "SET-20260817-071",
+    "bank_transaction_ids": [
+      "BANK-80071"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 14353.08,
+    "actual_bank_amount": 14353.08,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 4 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0072",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10090",
+      "ORD-10091",
+      "ORD-10092",
+      "ORD-10093"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50090",
+      "TXN-50091",
+      "TXN-50092",
+      "TXN-50093"
+    ],
+    "settlement_id": "SET-20260823-072",
+    "bank_transaction_ids": [
+      "BANK-80072"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 16012.96,
+    "actual_bank_amount": 16012.96,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 4 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0073",
+    "scenario": "BATCH_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10094",
+      "ORD-10095",
+      "ORD-10096",
+      "ORD-10097"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50094",
+      "TXN-50095",
+      "TXN-50096",
+      "TXN-50097"
+    ],
+    "settlement_id": "SET-20260823-073",
+    "bank_transaction_ids": [
+      "BANK-80073"
+    ],
+    "expected_relationship": "N_TO_1",
+    "expected_net_amount": 10740.4,
+    "actual_bank_amount": 10740.4,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Batch payout bundling 4 transactions into one deposit."
+  },
+  {
+    "case_id": "CASE-0074",
+    "scenario": "REFUND",
+    "erp_order_ids": [
+      "ORD-10098"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50098"
+    ],
+    "settlement_id": "SET-20260816-074",
+    "bank_transaction_ids": [
+      "BANK-80074"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -446.04,
+    "actual_bank_amount": -446.04,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Transaction settlement reduced by refund of \u20b918900.00."
+  },
+  {
+    "case_id": "CASE-0075",
+    "scenario": "REFUND",
+    "erp_order_ids": [
+      "ORD-10099"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50099"
+    ],
+    "settlement_id": "SET-20260817-075",
+    "bank_transaction_ids": [
+      "BANK-80075"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1167.18,
+    "actual_bank_amount": 1167.18,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Transaction settlement reduced by refund of \u20b91225.00."
+  },
+  {
+    "case_id": "CASE-0076",
+    "scenario": "REFUND",
+    "erp_order_ids": [
+      "ORD-10100"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50100"
+    ],
+    "settlement_id": "SET-20260817-076",
+    "bank_transaction_ids": [
+      "BANK-80076"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 5955.0,
+    "actual_bank_amount": 5955.0,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Transaction settlement reduced by refund of \u20b96250.00."
+  },
+  {
+    "case_id": "CASE-0077",
+    "scenario": "REFUND",
+    "erp_order_ids": [
+      "ORD-10101"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50101"
+    ],
+    "settlement_id": "SET-20260820-077",
+    "bank_transaction_ids": [
+      "BANK-80077"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -57.82,
+    "actual_bank_amount": -57.82,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Transaction settlement reduced by refund of \u20b92450.00."
+  },
+  {
+    "case_id": "CASE-0078",
+    "scenario": "REFUND",
+    "erp_order_ids": [
+      "ORD-10102"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50102"
+    ],
+    "settlement_id": "SET-20260820-078",
+    "bank_transaction_ids": [
+      "BANK-80078"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 9003.96,
+    "actual_bank_amount": 9003.96,
+    "root_cause": null,
+    "is_exception": false,
+    "description": "Transaction settlement reduced by refund of \u20b99450.00."
+  },
+  {
+    "case_id": "CASE-0079",
+    "scenario": "CHARGEBACK",
+    "erp_order_ids": [
+      "ORD-10103"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50103"
+    ],
+    "settlement_id": "SET-20260823-079",
+    "bank_transaction_ids": [
+      "BANK-80079"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -566.4,
+    "actual_bank_amount": 0.0,
+    "root_cause": "CHARGEBACK",
+    "is_exception": true,
+    "description": "Chargeback dispute clawback of \u20b924000.00."
+  },
+  {
+    "case_id": "CASE-0080",
+    "scenario": "CHARGEBACK",
+    "erp_order_ids": [
+      "ORD-10104"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50104"
+    ],
+    "settlement_id": "SET-20260821-080",
+    "bank_transaction_ids": [
+      "BANK-80080"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -826.0,
+    "actual_bank_amount": 0.0,
+    "root_cause": "CHARGEBACK",
+    "is_exception": true,
+    "description": "Chargeback dispute clawback of \u20b935000.00."
+  },
+  {
+    "case_id": "CASE-0081",
+    "scenario": "CHARGEBACK",
+    "erp_order_ids": [
+      "ORD-10105"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50105"
+    ],
+    "settlement_id": "SET-20260816-081",
+    "bank_transaction_ids": [
+      "BANK-80081"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -17.7,
+    "actual_bank_amount": 0.0,
+    "root_cause": "CHARGEBACK",
+    "is_exception": true,
+    "description": "Chargeback dispute clawback of \u20b9750.00."
+  },
+  {
+    "case_id": "CASE-0082",
+    "scenario": "CHARGEBACK",
+    "erp_order_ids": [
+      "ORD-10106"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50106"
+    ],
+    "settlement_id": "SET-20260819-082",
+    "bank_transaction_ids": [
+      "BANK-80082"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -28.32,
+    "actual_bank_amount": 0.0,
+    "root_cause": "CHARGEBACK",
+    "is_exception": true,
+    "description": "Chargeback dispute clawback of \u20b91200.00."
+  },
+  {
+    "case_id": "CASE-0083",
+    "scenario": "CHARGEBACK",
+    "erp_order_ids": [
+      "ORD-10107"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50107"
+    ],
+    "settlement_id": "SET-20260821-083",
+    "bank_transaction_ids": [
+      "BANK-80083"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": -114.46,
+    "actual_bank_amount": 0.0,
+    "root_cause": "CHARGEBACK",
+    "is_exception": true,
+    "description": "Chargeback dispute clawback of \u20b94850.00."
+  },
+  {
+    "case_id": "CASE-0084",
+    "scenario": "PARTIAL_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10108"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50108"
+    ],
+    "settlement_id": "SET-20260825-084",
+    "bank_transaction_ids": [
+      "BANK-80084"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 4735.54,
+    "actual_bank_amount": 2841.32,
+    "root_cause": "PARTIAL_SETTLEMENT",
+    "is_exception": true,
+    "description": "Partial payout: expected \u20b94735.54, bank received \u20b92841.32."
+  },
+  {
+    "case_id": "CASE-0085",
+    "scenario": "PARTIAL_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10109"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50109"
+    ],
+    "settlement_id": "SET-20260823-085",
+    "bank_transaction_ids": [
+      "BANK-80085"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 18453.96,
+    "actual_bank_amount": 11072.38,
+    "root_cause": "PARTIAL_SETTLEMENT",
+    "is_exception": true,
+    "description": "Partial payout: expected \u20b918453.96, bank received \u20b911072.38."
+  },
+  {
+    "case_id": "CASE-0086",
+    "scenario": "PARTIAL_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10110"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50110"
+    ],
+    "settlement_id": "SET-20260824-086",
+    "bank_transaction_ids": [
+      "BANK-80086"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 4979.64,
+    "root_cause": "PARTIAL_SETTLEMENT",
+    "is_exception": true,
+    "description": "Partial payout: expected \u20b98299.40, bank received \u20b94979.64."
+  },
+  {
+    "case_id": "CASE-0087",
+    "scenario": "PARTIAL_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10111"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50111"
+    ],
+    "settlement_id": "SET-20260824-087",
+    "bank_transaction_ids": [
+      "BANK-80087"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 1171.68,
+    "actual_bank_amount": 703.01,
+    "root_cause": "PARTIAL_SETTLEMENT",
+    "is_exception": true,
+    "description": "Partial payout: expected \u20b91171.68, bank received \u20b9703.01."
+  },
+  {
+    "case_id": "CASE-0088",
+    "scenario": "PARTIAL_SETTLEMENT",
+    "erp_order_ids": [
+      "ORD-10112"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50112"
+    ],
+    "settlement_id": "SET-20260821-088",
+    "bank_transaction_ids": [
+      "BANK-80088"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 34174.0,
+    "actual_bank_amount": 20504.4,
+    "root_cause": "PARTIAL_SETTLEMENT",
+    "is_exception": true,
+    "description": "Partial payout: expected \u20b934174.00, bank received \u20b920504.40."
+  },
+  {
+    "case_id": "CASE-0089",
+    "scenario": "DUPLICATE",
+    "erp_order_ids": [
+      "ORD-10113"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50113",
+      "TXN-50114"
+    ],
+    "settlement_id": "SET-20260821-089",
+    "bank_transaction_ids": [
+      "BANK-80089"
+    ],
+    "expected_relationship": "1_TO_N",
+    "expected_net_amount": 1171.68,
+    "actual_bank_amount": 1171.68,
+    "root_cause": "DUPLICATE",
+    "is_exception": true,
+    "description": "Duplicate gateway capture (TXN-50114) for single ERP order (ORD-10113)."
+  },
+  {
+    "case_id": "CASE-0090",
+    "scenario": "DUPLICATE",
+    "erp_order_ids": [
+      "ORD-10114"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50115",
+      "TXN-50116"
+    ],
+    "settlement_id": "SET-20260825-090",
+    "bank_transaction_ids": [
+      "BANK-80090"
+    ],
+    "expected_relationship": "1_TO_N",
+    "expected_net_amount": 12205.0,
+    "actual_bank_amount": 12205.0,
+    "root_cause": "DUPLICATE",
+    "is_exception": true,
+    "description": "Duplicate gateway capture (TXN-50116) for single ERP order (ORD-10114)."
+  },
+  {
+    "case_id": "CASE-0091",
+    "scenario": "DUPLICATE",
+    "erp_order_ids": [
+      "ORD-10115"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50117",
+      "TXN-50118"
+    ],
+    "settlement_id": "SET-20260823-091",
+    "bank_transaction_ids": [
+      "BANK-80091"
+    ],
+    "expected_relationship": "1_TO_N",
+    "expected_net_amount": 2392.18,
+    "actual_bank_amount": 2392.18,
+    "root_cause": "DUPLICATE",
+    "is_exception": true,
+    "description": "Duplicate gateway capture (TXN-50118) for single ERP order (ORD-10115)."
+  },
+  {
+    "case_id": "CASE-0092",
+    "scenario": "DUPLICATE",
+    "erp_order_ids": [
+      "ORD-10116"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50119",
+      "TXN-50120"
+    ],
+    "settlement_id": "SET-20260820-092",
+    "bank_transaction_ids": [
+      "BANK-80092"
+    ],
+    "expected_relationship": "1_TO_N",
+    "expected_net_amount": 6053.68,
+    "actual_bank_amount": 6053.68,
+    "root_cause": "DUPLICATE",
+    "is_exception": true,
+    "description": "Duplicate gateway capture (TXN-50120) for single ERP order (ORD-10116)."
+  },
+  {
+    "case_id": "CASE-0093",
+    "scenario": "MISSING_BANK",
+    "erp_order_ids": [
+      "ORD-10117"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50121"
+    ],
+    "settlement_id": "SET-1042",
+    "bank_transaction_ids": [],
+    "expected_relationship": "1_TO_0",
+    "expected_net_amount": 48200.0,
+    "actual_bank_amount": null,
+    "root_cause": "MISSING_BANK",
+    "is_exception": true,
+    "description": "Gateway settled \u20b948200.00 but bank credit is missing."
+  },
+  {
+    "case_id": "CASE-0094",
+    "scenario": "MISSING_BANK",
+    "erp_order_ids": [
+      "ORD-10118"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50122"
+    ],
+    "settlement_id": "SET-20260823-093",
+    "bank_transaction_ids": [],
+    "expected_relationship": "1_TO_0",
+    "expected_net_amount": 18453.96,
+    "actual_bank_amount": null,
+    "root_cause": "MISSING_BANK",
+    "is_exception": true,
+    "description": "Gateway settled \u20b918453.96 but bank credit is missing."
+  },
+  {
+    "case_id": "CASE-0095",
+    "scenario": "MISSING_BANK",
+    "erp_order_ids": [
+      "ORD-10119"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50123"
+    ],
+    "settlement_id": "SET-20260820-094",
+    "bank_transaction_ids": [],
+    "expected_relationship": "1_TO_0",
+    "expected_net_amount": 34174.0,
+    "actual_bank_amount": null,
+    "root_cause": "MISSING_BANK",
+    "is_exception": true,
+    "description": "Gateway settled \u20b934174.00 but bank credit is missing."
+  },
+  {
+    "case_id": "CASE-0096",
+    "scenario": "MISSING_ERP",
+    "erp_order_ids": [],
+    "gateway_transaction_ids": [
+      "TXN-50124"
+    ],
+    "settlement_id": "SET-20260819-095",
+    "bank_transaction_ids": [
+      "BANK-80093"
+    ],
+    "expected_relationship": "0_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 8299.4,
+    "root_cause": "MISSING_ERP",
+    "is_exception": true,
+    "description": "Gateway captured \u20b98500.00 but no ERP order exists."
+  },
+  {
+    "case_id": "CASE-0097",
+    "scenario": "MISSING_ERP",
+    "erp_order_ids": [],
+    "gateway_transaction_ids": [
+      "TXN-50125"
+    ],
+    "settlement_id": "SET-20260819-096",
+    "bank_transaction_ids": [
+      "BANK-80094"
+    ],
+    "expected_relationship": "0_TO_1",
+    "expected_net_amount": 12205.0,
+    "actual_bank_amount": 12205.0,
+    "root_cause": "MISSING_ERP",
+    "is_exception": true,
+    "description": "Gateway captured \u20b912500.00 but no ERP order exists."
+  },
+  {
+    "case_id": "CASE-0098",
+    "scenario": "FEE_ANOMALY",
+    "erp_order_ids": [
+      "ORD-10120"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50126"
+    ],
+    "settlement_id": "SET-20260819-097",
+    "bank_transaction_ids": [
+      "BANK-80095"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 8299.4,
+    "actual_bank_amount": 7948.35,
+    "root_cause": "FEE_ANOMALY",
+    "is_exception": true,
+    "description": "MDR fee anomaly: charged \u20b9467.50 instead of contracted \u20b9170.00."
+  },
+  {
+    "case_id": "CASE-0099",
+    "scenario": "FEE_ANOMALY",
+    "erp_order_ids": [
+      "ORD-10121"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50127"
+    ],
+    "settlement_id": "SET-20260825-098",
+    "bank_transaction_ids": [
+      "BANK-80096"
+    ],
+    "expected_relationship": "1_TO_1",
+    "expected_net_amount": 732.3,
+    "actual_bank_amount": 701.32,
+    "root_cause": "FEE_ANOMALY",
+    "is_exception": true,
+    "description": "MDR fee anomaly: charged \u20b941.25 instead of contracted \u20b915.00."
+  },
+  {
+    "case_id": "CASE-0100",
+    "scenario": "AMBIGUOUS",
+    "erp_order_ids": [
+      "ORD-10122",
+      "ORD-10123"
+    ],
+    "gateway_transaction_ids": [
+      "TXN-50128"
+    ],
+    "settlement_id": null,
+    "bank_transaction_ids": [
+      "BANK-80097"
+    ],
+    "expected_relationship": "UNKNOWN",
+    "expected_net_amount": 1464.6,
+    "actual_bank_amount": 1464.6,
+    "root_cause": "INSUFFICIENT_EVIDENCE",
+    "is_exception": true,
+    "description": "Ambiguous matching candidates: multiple identical orders with obscured references."
+  }
+]

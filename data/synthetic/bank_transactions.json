@@ -1,0 +1,972 @@
+[
+  {
+    "bank_transaction_id": "BANK-80008",
+    "transaction_date": "2026-08-15",
+    "description": "NEFT-RZP-PAYOUT-SET-20260815-008",
+    "reference": "ORD-JRTZ6",
+    "credit_amount": 12500.0,
+    "debit_amount": 0.0,
+    "balance": 512500.0,
+    "bank_utr": "KKBK478104447690"
+  },
+  {
+    "bank_transaction_id": "BANK-80036",
+    "transaction_date": "2026-08-15",
+    "description": "COLLECTION CREDIT RZP CHK-D7AE5",
+    "reference": "SET-20260815-036",
+    "credit_amount": 732.3,
+    "debit_amount": 0.0,
+    "balance": 513232.3,
+    "bank_utr": "ICIC072630365968"
+  },
+  {
+    "bank_transaction_id": "BANK-80037",
+    "transaction_date": "2026-08-15",
+    "description": "RZP PAYOUT INV-9ZPDW UTR:HDFC469072315571",
+    "reference": "SET-20260815-037",
+    "credit_amount": 23433.6,
+    "debit_amount": 0.0,
+    "balance": 536665.9,
+    "bank_utr": "HDFC469072315571"
+  },
+  {
+    "bank_transaction_id": "BANK-80003",
+    "transaction_date": "2026-08-16",
+    "description": "RAZORPAY SETTLEMENT SET-20260816-003",
+    "reference": "INV-FMXYX",
+    "credit_amount": 24000.0,
+    "debit_amount": 0.0,
+    "balance": 560665.9,
+    "bank_utr": "HDFC617139656872"
+  },
+  {
+    "bank_transaction_id": "BANK-80009",
+    "transaction_date": "2026-08-16",
+    "description": "RAZORPAY SETTLEMENT SET-20260816-009",
+    "reference": "CHK-EFQ5C",
+    "credit_amount": 12500.0,
+    "debit_amount": 0.0,
+    "balance": 573165.9,
+    "bank_utr": "KKBK065007244891"
+  },
+  {
+    "bank_transaction_id": "BANK-80011",
+    "transaction_date": "2026-08-16",
+    "description": "COLLECTION CREDIT RZP WEB-8UUBC",
+    "reference": "WEB-8UUBC",
+    "credit_amount": 6200.0,
+    "debit_amount": 0.0,
+    "balance": 579365.9,
+    "bank_utr": "PUNB559272362370"
+  },
+  {
+    "bank_transaction_id": "BANK-80017",
+    "transaction_date": "2026-08-16",
+    "description": "NEFT-RZP-PAYOUT-SET-20260816-017",
+    "reference": "INV-XD6SX",
+    "credit_amount": 18900.0,
+    "debit_amount": 0.0,
+    "balance": 598265.9,
+    "bank_utr": "UTIB421496963502"
+  },
+  {
+    "bank_transaction_id": "BANK-80021",
+    "transaction_date": "2026-08-16",
+    "description": "RAZORPAY NEFT SETTLEMENT CHK-PGP6U",
+    "reference": "CHK-PGP6U",
+    "credit_amount": 12500.0,
+    "debit_amount": 0.0,
+    "balance": 610765.9,
+    "bank_utr": "PUNB085492388577"
+  },
+  {
+    "bank_transaction_id": "BANK-80029",
+    "transaction_date": "2026-08-16",
+    "description": "RAZORPAY NEFT SETTLEMENT ORD-38CHT",
+    "reference": "ORD-38CHT",
+    "credit_amount": 1200.0,
+    "debit_amount": 0.0,
+    "balance": 611965.9,
+    "bank_utr": "SBIN672544893667"
+  },
+  {
+    "bank_transaction_id": "BANK-80034",
+    "transaction_date": "2026-08-16",
+    "description": "CMS/RAZORPAY/SET-20260816-034/NODAL",
+    "reference": "SET-20260816-034",
+    "credit_amount": 8299.4,
+    "debit_amount": 0.0,
+    "balance": 620265.3,
+    "bank_utr": "SBIN892539588274"
+  },
+  {
+    "bank_transaction_id": "BANK-80041",
+    "transaction_date": "2026-08-16",
+    "description": "RAZORPAY NEFT SETTLEMENT CHK-83M3A",
+    "reference": "SET-20260816-041",
+    "credit_amount": 23433.6,
+    "debit_amount": 0.0,
+    "balance": 643698.9,
+    "bank_utr": "KKBK137236364693"
+  },
+  {
+    "bank_transaction_id": "BANK-80064",
+    "transaction_date": "2026-08-16",
+    "description": "SETTLEMENT REF SET-20260816-064 / PUNB691670073356",
+    "reference": "SET-20260816-064",
+    "credit_amount": 9764.0,
+    "debit_amount": 0.0,
+    "balance": 653462.9,
+    "bank_utr": "PUNB691670073356"
+  },
+  {
+    "bank_transaction_id": "BANK-80074",
+    "transaction_date": "2026-08-16",
+    "description": "RAZORPAY NEFT SETTLEMENT WEB-HCVQX",
+    "reference": "SET-20260816-074",
+    "credit_amount": 0.0,
+    "debit_amount": 446.04,
+    "balance": 653016.86,
+    "bank_utr": "HDFC204577192955"
+  },
+  {
+    "bank_transaction_id": "BANK-80081",
+    "transaction_date": "2026-08-16",
+    "description": "RZP PAYOUT CHK-NTBAF UTR:SBIN863998929652",
+    "reference": "SET-20260816-081",
+    "credit_amount": 0.0,
+    "debit_amount": 17.7,
+    "balance": 652999.16,
+    "bank_utr": "SBIN863998929652"
+  },
+  {
+    "bank_transaction_id": "BANK-80002",
+    "transaction_date": "2026-08-17",
+    "description": "RZP PAYOUT WEB-NMMJB UTR:SBIN593586857022",
+    "reference": "WEB-NMMJB",
+    "credit_amount": 750.0,
+    "debit_amount": 0.0,
+    "balance": 653749.16,
+    "bank_utr": "SBIN593586857022"
+  },
+  {
+    "bank_transaction_id": "BANK-80024",
+    "transaction_date": "2026-08-17",
+    "description": "SETTLEMENT REF WEB-7U7N8 / ICIC066178619734 ",
+    "reference": "WEB-7U7N8",
+    "credit_amount": 18900.0,
+    "debit_amount": 0.0,
+    "balance": 672649.16,
+    "bank_utr": "ICIC066178619734"
+  },
+  {
+    "bank_transaction_id": "BANK-80031",
+    "transaction_date": "2026-08-17",
+    "description": "RAZORPAY SETTLEMENT SET-20260817-031",
+    "reference": "SET-20260817-031",
+    "credit_amount": 3904.62,
+    "debit_amount": 0.0,
+    "balance": 676553.78,
+    "bank_utr": "PUNB425458760268"
+  },
+  {
+    "bank_transaction_id": "BANK-80065",
+    "transaction_date": "2026-08-17",
+    "description": "RZP PAYOUT SET-20260817-065 UTR:HDFC354918037444",
+    "reference": "SET-20260817-065",
+    "credit_amount": 8494.68,
+    "debit_amount": 0.0,
+    "balance": 685048.46,
+    "bank_utr": "HDFC354918037444"
+  },
+  {
+    "bank_transaction_id": "BANK-80068",
+    "transaction_date": "2026-08-17",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260817-068 VIA NEFT",
+    "reference": "SET-20260817-068",
+    "credit_amount": 8982.88,
+    "debit_amount": 0.0,
+    "balance": 694031.34,
+    "bank_utr": "ICIC155013446536"
+  },
+  {
+    "bank_transaction_id": "BANK-80071",
+    "transaction_date": "2026-08-17",
+    "description": "CMS/RAZORPAY/SET-20260817-071/NODAL",
+    "reference": "SET-20260817-071",
+    "credit_amount": 14353.08,
+    "debit_amount": 0.0,
+    "balance": 708384.42,
+    "bank_utr": "PUNB809489087178"
+  },
+  {
+    "bank_transaction_id": "BANK-80075",
+    "transaction_date": "2026-08-17",
+    "description": "RAZORPAY NEFT SETTLEMENT CHK-KB867",
+    "reference": "SET-20260817-075",
+    "credit_amount": 1167.18,
+    "debit_amount": 0.0,
+    "balance": 709551.6,
+    "bank_utr": "PUNB650363564215"
+  },
+  {
+    "bank_transaction_id": "BANK-80076",
+    "transaction_date": "2026-08-17",
+    "description": "COLLECTION CREDIT RZP CHK-8TEHG",
+    "reference": "SET-20260817-076",
+    "credit_amount": 5955.0,
+    "debit_amount": 0.0,
+    "balance": 715506.6,
+    "bank_utr": "PUNB043580360085"
+  },
+  {
+    "bank_transaction_id": "BANK-80027",
+    "transaction_date": "2026-08-18",
+    "description": "CMS/RAZORPAY/SET-20260818-027/NODAL",
+    "reference": "APP-MTM9T",
+    "credit_amount": 3999.0,
+    "debit_amount": 0.0,
+    "balance": 719505.6,
+    "bank_utr": "UTIB722111571247"
+  },
+  {
+    "bank_transaction_id": "BANK-80028",
+    "transaction_date": "2026-08-18",
+    "description": "RZP PAYOUT INV-ATJ9T UTR:PUNB967102439281",
+    "reference": "INV-ATJ9T",
+    "credit_amount": 1200.0,
+    "debit_amount": 0.0,
+    "balance": 720705.6,
+    "bank_utr": "PUNB967102439281"
+  },
+  {
+    "bank_transaction_id": "BANK-80044",
+    "transaction_date": "2026-08-18",
+    "description": "razorpay settlement set-20260818-044",
+    "reference": "SET-20260818-044",
+    "credit_amount": 18453.96,
+    "debit_amount": 0.0,
+    "balance": 739159.56,
+    "bank_utr": "UTIB811216007231"
+  },
+  {
+    "bank_transaction_id": "BANK-80046",
+    "transaction_date": "2026-08-18",
+    "description": "RZP PAYOUT APP-TL9SQ UTR:KKBK471685848483",
+    "reference": "SET-20260818-046",
+    "credit_amount": 18453.96,
+    "debit_amount": 0.0,
+    "balance": 757613.52,
+    "bank_utr": "KKBK471685848483"
+  },
+  {
+    "bank_transaction_id": "BANK-80049",
+    "transaction_date": "2026-08-18",
+    "description": "COLLECTION CREDIT RZP ORD-Z9CSN",
+    "reference": "SET-20260818-049",
+    "credit_amount": 732.3,
+    "debit_amount": 0.0,
+    "balance": 758345.82,
+    "bank_utr": "SBIN337750016626"
+  },
+  {
+    "bank_transaction_id": "BANK-80059",
+    "transaction_date": "2026-08-18",
+    "description": "CMS/RAZORPAY/SET-20260818-059/NODAL",
+    "reference": "SET-20260818-059",
+    "credit_amount": 4735.54,
+    "debit_amount": 0.0,
+    "balance": 763081.36,
+    "bank_utr": "SBIN617400285751"
+  },
+  {
+    "bank_transaction_id": "BANK-80060",
+    "transaction_date": "2026-08-18",
+    "description": "RAZORPAY SETTLEMENT SET-20260818-060",
+    "reference": "SET-20260818-060",
+    "credit_amount": 23433.6,
+    "debit_amount": 0.0,
+    "balance": 786514.96,
+    "bank_utr": "KKBK572035165395"
+  },
+  {
+    "bank_transaction_id": "BANK-80066",
+    "transaction_date": "2026-08-18",
+    "description": "RAZORPAY NEFT SETTLEMENT SET-20260818-066",
+    "reference": "SET-20260818-066",
+    "credit_amount": 14157.8,
+    "debit_amount": 0.0,
+    "balance": 800672.76,
+    "bank_utr": "KKBK768580065674"
+  },
+  {
+    "bank_transaction_id": "BANK-80067",
+    "transaction_date": "2026-08-18",
+    "description": "rzp payout set-20260818-067 utr:sbin948403425025",
+    "reference": "SET-20260818-067",
+    "credit_amount": 7323.0,
+    "debit_amount": 0.0,
+    "balance": 807995.76,
+    "bank_utr": "SBIN948403425025"
+  },
+  {
+    "bank_transaction_id": "BANK-80070",
+    "transaction_date": "2026-08-18",
+    "description": "CMS/RAZORPAY/SET-20260818-070/NODAL",
+    "reference": "SET-20260818-070",
+    "credit_amount": 8201.76,
+    "debit_amount": 0.0,
+    "balance": 816197.52,
+    "bank_utr": "UTIB967282521720"
+  },
+  {
+    "bank_transaction_id": "BANK-80097",
+    "transaction_date": "2026-08-18",
+    "description": "DIRECT UPI SETTLEMENT NO REF",
+    "reference": "UPI-MISC-99",
+    "credit_amount": 1464.6,
+    "debit_amount": 0.0,
+    "balance": 817662.12,
+    "bank_utr": "UPI999999999999"
+  },
+  {
+    "bank_transaction_id": "BANK-80006",
+    "transaction_date": "2026-08-19",
+    "description": "payment gateway credit set-20260819-006 via neft",
+    "reference": "ORD-E2T2S",
+    "credit_amount": 18900.0,
+    "debit_amount": 0.0,
+    "balance": 836562.12,
+    "bank_utr": "HDFC541398225078"
+  },
+  {
+    "bank_transaction_id": "BANK-80010",
+    "transaction_date": "2026-08-19",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260819-010 VIA NEFT ",
+    "reference": "CHK-YZ3XR",
+    "credit_amount": 3999.0,
+    "debit_amount": 0.0,
+    "balance": 840561.12,
+    "bank_utr": "ICIC295570558190"
+  },
+  {
+    "bank_transaction_id": "BANK-80022",
+    "transaction_date": "2026-08-19",
+    "description": "NEFT-RZP-PAYOUT-SET-20260819-022",
+    "reference": "INV-X3Z47",
+    "credit_amount": 6200.0,
+    "debit_amount": 0.0,
+    "balance": 846761.12,
+    "bank_utr": "KKBK595604812343"
+  },
+  {
+    "bank_transaction_id": "BANK-80030",
+    "transaction_date": "2026-08-19",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260819-030 VIA NEFT",
+    "reference": "ORD-TFPYR",
+    "credit_amount": 2450.0,
+    "debit_amount": 0.0,
+    "balance": 849211.12,
+    "bank_utr": "HDFC277469766945"
+  },
+  {
+    "bank_transaction_id": "BANK-80035",
+    "transaction_date": "2026-08-19",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260819-035 VIA NEFT",
+    "reference": "SET-20260819-035",
+    "credit_amount": 1171.68,
+    "debit_amount": 0.0,
+    "balance": 850382.8,
+    "bank_utr": "UTIB892384349397"
+  },
+  {
+    "bank_transaction_id": "BANK-80043",
+    "transaction_date": "2026-08-19",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260819-043 VIA NEFT",
+    "reference": "SET-20260819-043",
+    "credit_amount": 2392.18,
+    "debit_amount": 0.0,
+    "balance": 852774.98,
+    "bank_utr": "PUNB331184665072"
+  },
+  {
+    "bank_transaction_id": "BANK-80057",
+    "transaction_date": "2026-08-19",
+    "description": "NEFT-RZP-PAYOUT-SET-20260819-057",
+    "reference": "SET-20260819-057",
+    "credit_amount": 34174.0,
+    "debit_amount": 0.0,
+    "balance": 886948.98,
+    "bank_utr": "PUNB722979165477"
+  },
+  {
+    "bank_transaction_id": "BANK-80063",
+    "transaction_date": "2026-08-19",
+    "description": "NEFT-RZP-PAYOUT-SET-20260819-063",
+    "reference": "SET-20260819-063",
+    "credit_amount": 4735.54,
+    "debit_amount": 0.0,
+    "balance": 891684.52,
+    "bank_utr": "ICIC530636463083"
+  },
+  {
+    "bank_transaction_id": "BANK-80082",
+    "transaction_date": "2026-08-19",
+    "description": "SETTLEMENT REF INV-AGE44 / HDFC255865377607 ",
+    "reference": "SET-20260819-082",
+    "credit_amount": 0.0,
+    "debit_amount": 28.32,
+    "balance": 891656.2,
+    "bank_utr": "HDFC255865377607"
+  },
+  {
+    "bank_transaction_id": "BANK-80093",
+    "transaction_date": "2026-08-19",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260819-095 VIA NEFT",
+    "reference": "SET-20260819-095",
+    "credit_amount": 8299.4,
+    "debit_amount": 0.0,
+    "balance": 899955.6,
+    "bank_utr": "ICIC276864678855"
+  },
+  {
+    "bank_transaction_id": "BANK-80094",
+    "transaction_date": "2026-08-19",
+    "description": "RZP PAYOUT WEB-E2PBJ UTR:PUNB182787645244",
+    "reference": "SET-20260819-096",
+    "credit_amount": 12205.0,
+    "debit_amount": 0.0,
+    "balance": 912160.6,
+    "bank_utr": "PUNB182787645244"
+  },
+  {
+    "bank_transaction_id": "BANK-80095",
+    "transaction_date": "2026-08-19",
+    "description": "COLLECTION CREDIT RZP CHK-LA2ZZ",
+    "reference": "SET-20260819-097",
+    "credit_amount": 7948.35,
+    "debit_amount": 0.0,
+    "balance": 920108.95,
+    "bank_utr": "SBIN668739843251"
+  },
+  {
+    "bank_transaction_id": "BANK-80014",
+    "transaction_date": "2026-08-20",
+    "description": "NEFT-RZP-PAYOUT-SET-20260820-014 ",
+    "reference": "ORD-BM79B",
+    "credit_amount": 6200.0,
+    "debit_amount": 0.0,
+    "balance": 926308.95,
+    "bank_utr": "UTIB221784619898"
+  },
+  {
+    "bank_transaction_id": "BANK-80015",
+    "transaction_date": "2026-08-20",
+    "description": "NEFT-RZP-PAYOUT-SET-20260820-015",
+    "reference": "ORD-J3D55",
+    "credit_amount": 24000.0,
+    "debit_amount": 0.0,
+    "balance": 950308.95,
+    "bank_utr": "ICIC193882632073"
+  },
+  {
+    "bank_transaction_id": "BANK-80033",
+    "transaction_date": "2026-08-20",
+    "description": "RAZORPAY SETTLEMENT SET-20260820-033",
+    "reference": "SET-20260820-033",
+    "credit_amount": 12205.0,
+    "debit_amount": 0.0,
+    "balance": 962513.95,
+    "bank_utr": "SBIN672594619621"
+  },
+  {
+    "bank_transaction_id": "BANK-80058",
+    "transaction_date": "2026-08-20",
+    "description": "SETTLEMENT REF WEB-W5TD5 / HDFC272914924300",
+    "reference": "SET-20260820-058",
+    "credit_amount": 3904.62,
+    "debit_amount": 0.0,
+    "balance": 966418.57,
+    "bank_utr": "HDFC272914924300"
+  },
+  {
+    "bank_transaction_id": "BANK-80077",
+    "transaction_date": "2026-08-20",
+    "description": "SETTLEMENT REF ORD-8D9RH / KKBK732324633848",
+    "reference": "SET-20260820-077",
+    "credit_amount": 0.0,
+    "debit_amount": 57.82,
+    "balance": 966360.75,
+    "bank_utr": "KKBK732324633848"
+  },
+  {
+    "bank_transaction_id": "BANK-80078",
+    "transaction_date": "2026-08-20",
+    "description": "settlement ref ord-zatuz / utib133846628964",
+    "reference": "SET-20260820-078",
+    "credit_amount": 9003.96,
+    "debit_amount": 0.0,
+    "balance": 975364.71,
+    "bank_utr": "UTIB133846628964"
+  },
+  {
+    "bank_transaction_id": "BANK-80092",
+    "transaction_date": "2026-08-20",
+    "description": "COLLECTION CREDIT RZP CHK-VUPRT",
+    "reference": "SET-20260820-092",
+    "credit_amount": 6053.68,
+    "debit_amount": 0.0,
+    "balance": 981418.39,
+    "bank_utr": "PUNB911218689413"
+  },
+  {
+    "bank_transaction_id": "BANK-80004",
+    "transaction_date": "2026-08-21",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260821-004 VIA NEFT",
+    "reference": "INV-GR6WE",
+    "credit_amount": 18900.0,
+    "debit_amount": 0.0,
+    "balance": 1000318.39,
+    "bank_utr": "ICIC252583295001"
+  },
+  {
+    "bank_transaction_id": "BANK-80005",
+    "transaction_date": "2026-08-21",
+    "description": "RZP PAYOUT APP-9S95A UTR:PUNB187732107797",
+    "reference": "APP-9S95A",
+    "credit_amount": 6200.0,
+    "debit_amount": 0.0,
+    "balance": 1006518.39,
+    "bank_utr": "PUNB187732107797"
+  },
+  {
+    "bank_transaction_id": "BANK-80023",
+    "transaction_date": "2026-08-21",
+    "description": "RZP PAYOUT WEB-ZB8HC UTR:PUNB002862419423",
+    "reference": "WEB-ZB8HC",
+    "credit_amount": 8500.0,
+    "debit_amount": 0.0,
+    "balance": 1015018.39,
+    "bank_utr": "PUNB002862419423"
+  },
+  {
+    "bank_transaction_id": "BANK-80038",
+    "transaction_date": "2026-08-21",
+    "description": "collection credit rzp app-eqjja",
+    "reference": "SET-20260821-038",
+    "credit_amount": 8299.4,
+    "debit_amount": 0.0,
+    "balance": 1023317.79,
+    "bank_utr": "SBIN961435642813"
+  },
+  {
+    "bank_transaction_id": "BANK-80039",
+    "transaction_date": "2026-08-21",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260821-039 VIA NEFT",
+    "reference": "SET-20260821-039",
+    "credit_amount": 34174.0,
+    "debit_amount": 0.0,
+    "balance": 1057491.79,
+    "bank_utr": "PUNB997897282127"
+  },
+  {
+    "bank_transaction_id": "BANK-80045",
+    "transaction_date": "2026-08-21",
+    "description": "RZP PAYOUT CHK-2SDS8 UTR:HDFC796360984174",
+    "reference": "SET-20260821-045",
+    "credit_amount": 8299.4,
+    "debit_amount": 0.0,
+    "balance": 1065791.19,
+    "bank_utr": "HDFC796360984174"
+  },
+  {
+    "bank_transaction_id": "BANK-80047",
+    "transaction_date": "2026-08-21",
+    "description": "settlement ref chk-c4cdz / icic555313678796",
+    "reference": "SET-20260821-047",
+    "credit_amount": 1171.68,
+    "debit_amount": 0.0,
+    "balance": 1066962.87,
+    "bank_utr": "ICIC555313678796"
+  },
+  {
+    "bank_transaction_id": "BANK-80080",
+    "transaction_date": "2026-08-21",
+    "description": "RAZORPAY NEFT SETTLEMENT INV-TKSYP",
+    "reference": "SET-20260821-080",
+    "credit_amount": 0.0,
+    "debit_amount": 826.0,
+    "balance": 1066136.87,
+    "bank_utr": "ICIC101158233459"
+  },
+  {
+    "bank_transaction_id": "BANK-80083",
+    "transaction_date": "2026-08-21",
+    "description": "cms/razorpay/set-20260821-083/nodal",
+    "reference": "SET-20260821-083",
+    "credit_amount": 0.0,
+    "debit_amount": 114.46,
+    "balance": 1066022.41,
+    "bank_utr": "UTIB742531537220"
+  },
+  {
+    "bank_transaction_id": "BANK-80088",
+    "transaction_date": "2026-08-21",
+    "description": "RAZORPAY NEFT SETTLEMENT APP-V7DHX",
+    "reference": "SET-20260821-088",
+    "credit_amount": 20504.4,
+    "debit_amount": 0.0,
+    "balance": 1086526.81,
+    "bank_utr": "ICIC609637940255"
+  },
+  {
+    "bank_transaction_id": "BANK-80089",
+    "transaction_date": "2026-08-21",
+    "description": "SETTLEMENT REF INV-9RK7C / PUNB134244463381",
+    "reference": "SET-20260821-089",
+    "credit_amount": 1171.68,
+    "debit_amount": 0.0,
+    "balance": 1087698.49,
+    "bank_utr": "PUNB134244463381"
+  },
+  {
+    "bank_transaction_id": "BANK-80007",
+    "transaction_date": "2026-08-22",
+    "description": "RAZORPAY SETTLEMENT SET-20260822-007",
+    "reference": "APP-5PGTZ",
+    "credit_amount": 3999.0,
+    "debit_amount": 0.0,
+    "balance": 1091697.49,
+    "bank_utr": "ICIC736384200550"
+  },
+  {
+    "bank_transaction_id": "BANK-80020",
+    "transaction_date": "2026-08-22",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260822-020 VIA NEFT",
+    "reference": "APP-QF5Q2",
+    "credit_amount": 6200.0,
+    "debit_amount": 0.0,
+    "balance": 1097897.49,
+    "bank_utr": "PUNB274247238013"
+  },
+  {
+    "bank_transaction_id": "BANK-80026",
+    "transaction_date": "2026-08-22",
+    "description": "RAZORPAY SETTLEMENT SET-20260822-026 ",
+    "reference": "WEB-RLRMJ",
+    "credit_amount": 4850.0,
+    "debit_amount": 0.0,
+    "balance": 1102747.49,
+    "bank_utr": "UTIB872090747664"
+  },
+  {
+    "bank_transaction_id": "BANK-80050",
+    "transaction_date": "2026-08-22",
+    "description": "RAZORPAY NEFT SETTLEMENT INV-PKXRX",
+    "reference": "SET-20260822-050",
+    "credit_amount": 732.3,
+    "debit_amount": 0.0,
+    "balance": 1103479.79,
+    "bank_utr": "HDFC290297721441"
+  },
+  {
+    "bank_transaction_id": "BANK-80052",
+    "transaction_date": "2026-08-22",
+    "description": "COLLECTION CREDIT RZP INV-2CWSG",
+    "reference": "SET-20260822-052",
+    "credit_amount": 2392.18,
+    "debit_amount": 0.0,
+    "balance": 1105871.97,
+    "bank_utr": "UTIB396112117096"
+  },
+  {
+    "bank_transaction_id": "BANK-80013",
+    "transaction_date": "2026-08-23",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260823-013 VIA NEFT",
+    "reference": "ORD-YGWJR",
+    "credit_amount": 18900.0,
+    "debit_amount": 0.0,
+    "balance": 1124771.97,
+    "bank_utr": "HDFC042076275400"
+  },
+  {
+    "bank_transaction_id": "BANK-80016",
+    "transaction_date": "2026-08-23",
+    "description": "RAZORPAY NEFT SETTLEMENT INV-F8JDP",
+    "reference": "INV-F8JDP",
+    "credit_amount": 750.0,
+    "debit_amount": 0.0,
+    "balance": 1125521.97,
+    "bank_utr": "PUNB749181045869"
+  },
+  {
+    "bank_transaction_id": "BANK-80072",
+    "transaction_date": "2026-08-23",
+    "description": "COLLECTION CREDIT RZP SET-20260823-072",
+    "reference": "SET-20260823-072",
+    "credit_amount": 16012.96,
+    "debit_amount": 0.0,
+    "balance": 1141534.93,
+    "bank_utr": "PUNB523264169876"
+  },
+  {
+    "bank_transaction_id": "BANK-80073",
+    "transaction_date": "2026-08-23",
+    "description": "RAZORPAY NEFT SETTLEMENT SET-20260823-073",
+    "reference": "SET-20260823-073",
+    "credit_amount": 10740.4,
+    "debit_amount": 0.0,
+    "balance": 1152275.33,
+    "bank_utr": "HDFC563020204750"
+  },
+  {
+    "bank_transaction_id": "BANK-80079",
+    "transaction_date": "2026-08-23",
+    "description": "RAZORPAY SETTLEMENT SET-20260823-079",
+    "reference": "SET-20260823-079",
+    "credit_amount": 0.0,
+    "debit_amount": 566.4,
+    "balance": 1151708.93,
+    "bank_utr": "HDFC482705366644"
+  },
+  {
+    "bank_transaction_id": "BANK-80085",
+    "transaction_date": "2026-08-23",
+    "description": "NEFT-RZP-PAYOUT-SET-20260823-085",
+    "reference": "SET-20260823-085",
+    "credit_amount": 11072.38,
+    "debit_amount": 0.0,
+    "balance": 1162781.31,
+    "bank_utr": "HDFC122739746410"
+  },
+  {
+    "bank_transaction_id": "BANK-80091",
+    "transaction_date": "2026-08-23",
+    "description": "cms/razorpay/set-20260823-091/nodal",
+    "reference": "SET-20260823-091",
+    "credit_amount": 2392.18,
+    "debit_amount": 0.0,
+    "balance": 1165173.49,
+    "bank_utr": "SBIN653868726011"
+  },
+  {
+    "bank_transaction_id": "BANK-80012",
+    "transaction_date": "2026-08-24",
+    "description": "RZP PAYOUT ORD-SEMCH UTR:UTIB187696082691",
+    "reference": "ORD-SEMCH",
+    "credit_amount": 12500.0,
+    "debit_amount": 0.0,
+    "balance": 1177673.49,
+    "bank_utr": "UTIB187696082691"
+  },
+  {
+    "bank_transaction_id": "BANK-80018",
+    "transaction_date": "2026-08-24",
+    "description": "RZP PAYOUT CHK-XS38Z UTR:PUNB056387621024",
+    "reference": "CHK-XS38Z",
+    "credit_amount": 8500.0,
+    "debit_amount": 0.0,
+    "balance": 1186173.49,
+    "bank_utr": "PUNB056387621024"
+  },
+  {
+    "bank_transaction_id": "BANK-80048",
+    "transaction_date": "2026-08-24",
+    "description": "SETTLEMENT REF WEB-MTDJH / SBIN898660982173",
+    "reference": "SET-20260824-048",
+    "credit_amount": 2392.18,
+    "debit_amount": 0.0,
+    "balance": 1188565.67,
+    "bank_utr": "SBIN898660982173"
+  },
+  {
+    "bank_transaction_id": "BANK-80061",
+    "transaction_date": "2026-08-24",
+    "description": "RZP PAYOUT INV-ZMCHX UTR:HDFC773058174668",
+    "reference": "SET-20260824-061",
+    "credit_amount": 4735.54,
+    "debit_amount": 0.0,
+    "balance": 1193301.21,
+    "bank_utr": "HDFC773058174668"
+  },
+  {
+    "bank_transaction_id": "BANK-80062",
+    "transaction_date": "2026-08-24",
+    "description": "NEFT-RZP-PAYOUT-SET-20260824-062",
+    "reference": "SET-20260824-062",
+    "credit_amount": 487.22,
+    "debit_amount": 0.0,
+    "balance": 1193788.43,
+    "bank_utr": "SBIN271378313878"
+  },
+  {
+    "bank_transaction_id": "BANK-80086",
+    "transaction_date": "2026-08-24",
+    "description": "NEFT-RZP-PAYOUT-SET-20260824-086",
+    "reference": "SET-20260824-086",
+    "credit_amount": 4979.64,
+    "debit_amount": 0.0,
+    "balance": 1198768.07,
+    "bank_utr": "KKBK923992645238"
+  },
+  {
+    "bank_transaction_id": "BANK-80087",
+    "transaction_date": "2026-08-24",
+    "description": "NEFT-RZP-PAYOUT-SET-20260824-087",
+    "reference": "SET-20260824-087",
+    "credit_amount": 703.01,
+    "debit_amount": 0.0,
+    "balance": 1199471.08,
+    "bank_utr": "PUNB087613214345"
+  },
+  {
+    "bank_transaction_id": "BANK-80001",
+    "transaction_date": "2026-08-25",
+    "description": "NEFT-RZP-PAYOUT-SET-20260825-001",
+    "reference": "ORD-EDZTU",
+    "credit_amount": 2450.0,
+    "debit_amount": 0.0,
+    "balance": 1201921.08,
+    "bank_utr": "HDFC025016525808"
+  },
+  {
+    "bank_transaction_id": "BANK-80019",
+    "transaction_date": "2026-08-25",
+    "description": "SETTLEMENT REF CHK-HWA22 / HDFC728645911455",
+    "reference": "CHK-HWA22",
+    "credit_amount": 8500.0,
+    "debit_amount": 0.0,
+    "balance": 1210421.08,
+    "bank_utr": "HDFC728645911455"
+  },
+  {
+    "bank_transaction_id": "BANK-80025",
+    "transaction_date": "2026-08-25",
+    "description": "COLLECTION CREDIT RZP WEB-PM6QE",
+    "reference": "WEB-PM6QE",
+    "credit_amount": 8500.0,
+    "debit_amount": 0.0,
+    "balance": 1218921.08,
+    "bank_utr": "ICIC792854472880"
+  },
+  {
+    "bank_transaction_id": "BANK-80032",
+    "transaction_date": "2026-08-25",
+    "description": "RZP PAYOUT CHK-SQJ9P UTR:SBIN944311446470",
+    "reference": "SET-20260825-032",
+    "credit_amount": 1171.68,
+    "debit_amount": 0.0,
+    "balance": 1220092.76,
+    "bank_utr": "SBIN944311446470"
+  },
+  {
+    "bank_transaction_id": "BANK-80040",
+    "transaction_date": "2026-08-25",
+    "description": "RZP PAYOUT WEB-UZCKZ UTR:ICIC278352199928",
+    "reference": "SET-20260825-040",
+    "credit_amount": 8299.4,
+    "debit_amount": 0.0,
+    "balance": 1228392.16,
+    "bank_utr": "ICIC278352199928"
+  },
+  {
+    "bank_transaction_id": "BANK-80042",
+    "transaction_date": "2026-08-25",
+    "description": "NEFT-RZP-PAYOUT-SET-20260825-042",
+    "reference": "SET-20260825-042",
+    "credit_amount": 23433.6,
+    "debit_amount": 0.0,
+    "balance": 1251825.76,
+    "bank_utr": "ICIC814679471404"
+  },
+  {
+    "bank_transaction_id": "BANK-80053",
+    "transaction_date": "2026-08-25",
+    "description": "RAZORPAY SETTLEMENT SET-20260825-053",
+    "reference": "SET-20260825-053",
+    "credit_amount": 23433.6,
+    "debit_amount": 0.0,
+    "balance": 1275259.36,
+    "bank_utr": "HDFC304032690535"
+  },
+  {
+    "bank_transaction_id": "BANK-80054",
+    "transaction_date": "2026-08-25",
+    "description": "RAZORPAY SETTLEMENT SET-20260825-054",
+    "reference": "SET-20260825-054",
+    "credit_amount": 18453.96,
+    "debit_amount": 0.0,
+    "balance": 1293713.32,
+    "bank_utr": "PUNB060795639376"
+  },
+  {
+    "bank_transaction_id": "BANK-80069",
+    "transaction_date": "2026-08-25",
+    "description": "NEFT-RZP-PAYOUT-SET-20260825-069",
+    "reference": "SET-20260825-069",
+    "credit_amount": 9471.08,
+    "debit_amount": 0.0,
+    "balance": 1303184.4,
+    "bank_utr": "ICIC091031647987"
+  },
+  {
+    "bank_transaction_id": "BANK-80084",
+    "transaction_date": "2026-08-25",
+    "description": "RZP PAYOUT INV-DAKMJ UTR:ICIC045510557804",
+    "reference": "SET-20260825-084",
+    "credit_amount": 2841.32,
+    "debit_amount": 0.0,
+    "balance": 1306025.72,
+    "bank_utr": "ICIC045510557804"
+  },
+  {
+    "bank_transaction_id": "BANK-80090",
+    "transaction_date": "2026-08-25",
+    "description": "RZP PAYOUT ORD-TLPQ3 UTR:PUNB164061537278",
+    "reference": "SET-20260825-090",
+    "credit_amount": 12205.0,
+    "debit_amount": 0.0,
+    "balance": 1318230.72,
+    "bank_utr": "PUNB164061537278"
+  },
+  {
+    "bank_transaction_id": "BANK-80096",
+    "transaction_date": "2026-08-25",
+    "description": "NEFT-RZP-PAYOUT-SET-20260825-098",
+    "reference": "SET-20260825-098",
+    "credit_amount": 701.32,
+    "debit_amount": 0.0,
+    "balance": 1318932.04,
+    "bank_utr": "SBIN261619262391"
+  },
+  {
+    "bank_transaction_id": "BANK-80051",
+    "transaction_date": "2026-08-26",
+    "description": "NEFT-RZP-PAYOUT-SET-20260826-051",
+    "reference": "SET-20260826-051",
+    "credit_amount": 6053.68,
+    "debit_amount": 0.0,
+    "balance": 1324985.72,
+    "bank_utr": "SBIN741038689082"
+  },
+  {
+    "bank_transaction_id": "BANK-80055",
+    "transaction_date": "2026-08-26",
+    "description": "PAYMENT GATEWAY CREDIT SET-20260826-055 VIA NEFT",
+    "reference": "SET-20260826-055",
+    "credit_amount": 732.3,
+    "debit_amount": 0.0,
+    "balance": 1325718.02,
+    "bank_utr": "ICIC351396359337"
+  },
+  {
+    "bank_transaction_id": "BANK-80056",
+    "transaction_date": "2026-08-27",
+    "description": "neft-rzp-payout-set-20260827-056",
+    "reference": "SET-20260827-056",
+    "credit_amount": 23433.6,
+    "debit_amount": 0.0,
+    "balance": 1349151.62,
+    "bank_utr": "SBIN191275575686"
+  }
+]

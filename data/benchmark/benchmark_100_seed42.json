@@ -1,0 +1,4499 @@
+{
+  "benchmark_metadata": {
+    "dataset_size": 100,
+    "seed": 42,
+    "timestamp": "2026-09-03T18:02:58.528234+00:00",
+    "engine_version": "phase-2"
+  },
+  "dataset": {
+    "erp_records": 123,
+    "gateway_transactions": 128,
+    "gateway_settlements": 99,
+    "bank_transactions": 97
+  },
+  "decisions": {
+    "resolved": 76,
+    "review": 24,
+    "unresolved": 0
+  },
+  "accuracy": {
+    "total_cases": 100,
+    "correct_count": 94,
+    "incorrect_count": 0,
+    "false_positive_count": 6,
+    "false_negative_count": 0,
+    "precision": 94.0,
+    "recall": 100.0,
+    "f1_score": 96.91,
+    "match_rate": 93.94
+  },
+  "financial": {
+    "total_expected_value": 981208.92,
+    "total_actual_bank_value": 851712.22,
+    "correctly_reconciled_value": 938881.98,
+    "value_reconciliation_percentage": 95.69,
+    "unreconciled_value": 0.0,
+    "false_positive_financial_value": 42326.94,
+    "false_negative_financial_value": 0.0,
+    "unresolved_financial_value": 0.0
+  },
+  "performance": {
+    "engine_time_ms": 22.03,
+    "evaluation_time_ms": 0.7,
+    "total_benchmark_time_ms": 22.73,
+    "throughput_records_per_second": 5809.8,
+    "throughput_cases_per_second": 4538.9
+  },
+  "scenarios": {
+    "EXACT_MATCH": {
+      "scenario": "EXACT_MATCH",
+      "total_cases": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "resolved": 17,
+      "review": 13,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 283147.0,
+      "value_total": 283147.0,
+      "value_reconciliation_percentage": 100.0
+    },
+    "MDR_GST": {
+      "scenario": "MDR_GST",
+      "total_cases": 15,
+      "correct": 15,
+      "incorrect": 0,
+      "resolved": 15,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 177703.82,
+      "value_total": 177703.82,
+      "value_reconciliation_percentage": 100.0
+    },
+    "T_PLUS_1": {
+      "scenario": "T_PLUS_1",
+      "total_cases": 10,
+      "correct": 10,
+      "incorrect": 0,
+      "resolved": 10,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 74548.14,
+      "value_total": 74548.14,
+      "value_reconciliation_percentage": 100.0
+    },
+    "T_PLUS_2": {
+      "scenario": "T_PLUS_2",
+      "total_cases": 8,
+      "correct": 8,
+      "incorrect": 0,
+      "resolved": 8,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 99639.66,
+      "value_total": 99639.66,
+      "value_reconciliation_percentage": 100.0
+    },
+    "BATCH_SETTLEMENT": {
+      "scenario": "BATCH_SETTLEMENT",
+      "total_cases": 10,
+      "correct": 10,
+      "incorrect": 0,
+      "resolved": 10,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 107501.64,
+      "value_total": 107501.64,
+      "value_reconciliation_percentage": 100.0
+    },
+    "REFUND": {
+      "scenario": "REFUND",
+      "total_cases": 5,
+      "correct": 5,
+      "incorrect": 0,
+      "resolved": 5,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 16630.0,
+      "value_total": 16630.0,
+      "value_reconciliation_percentage": 100.0
+    },
+    "CHARGEBACK": {
+      "scenario": "CHARGEBACK",
+      "total_cases": 5,
+      "correct": 5,
+      "incorrect": 0,
+      "resolved": 5,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 1552.88,
+      "value_total": 1552.88,
+      "value_reconciliation_percentage": 100.0
+    },
+    "PARTIAL_SETTLEMENT": {
+      "scenario": "PARTIAL_SETTLEMENT",
+      "total_cases": 5,
+      "correct": 5,
+      "incorrect": 0,
+      "resolved": 0,
+      "review": 5,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 66834.58,
+      "value_total": 66834.58,
+      "value_reconciliation_percentage": 100.0
+    },
+    "DUPLICATE": {
+      "scenario": "DUPLICATE",
+      "total_cases": 4,
+      "correct": 0,
+      "incorrect": 0,
+      "resolved": 4,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 4,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "match_rate": 0.0,
+      "value_reconciled": 0.0,
+      "value_total": 21822.54,
+      "value_reconciliation_percentage": 0.0
+    },
+    "MISSING_BANK": {
+      "scenario": "MISSING_BANK",
+      "total_cases": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "resolved": 0,
+      "review": 3,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 100827.96,
+      "value_total": 100827.96,
+      "value_reconciliation_percentage": 100.0
+    },
+    "MISSING_ERP": {
+      "scenario": "MISSING_ERP",
+      "total_cases": 2,
+      "correct": 0,
+      "incorrect": 0,
+      "resolved": 2,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "match_rate": 0.0,
+      "value_reconciled": 0.0,
+      "value_total": 20504.4,
+      "value_reconciliation_percentage": 0.0
+    },
+    "FEE_ANOMALY": {
+      "scenario": "FEE_ANOMALY",
+      "total_cases": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "resolved": 0,
+      "review": 2,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 9031.7,
+      "value_total": 9031.7,
+      "value_reconciliation_percentage": 100.0
+    },
+    "AMBIGUOUS": {
+      "scenario": "AMBIGUOUS",
+      "total_cases": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "resolved": 0,
+      "review": 1,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "match_rate": 100.0,
+      "value_reconciled": 1464.6,
+      "value_total": 1464.6,
+      "value_reconciliation_percentage": 100.0
+    },
+    "UNKNOWN": {
+      "scenario": "UNKNOWN",
+      "total_cases": 0,
+      "correct": 0,
+      "incorrect": 0,
+      "resolved": 0,
+      "review": 0,
+      "unresolved": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "match_rate": 0.0,
+      "value_reconciled": 0.0,
+      "value_total": 0.0,
+      "value_reconciliation_percentage": 0.0
+    }
+  },
+  "match_types": {
+    "EXACT_1_TO_1": {
+      "match_type": "EXACT_1_TO_1",
+      "count": 30,
+      "correct": 30,
+      "incorrect": 0,
+      "financial_value": 283147.0,
+      "accuracy": 100.0
+    },
+    "FEE_RECONCILED": {
+      "match_type": "FEE_RECONCILED",
+      "count": 51,
+      "correct": 45,
+      "incorrect": 6,
+      "financial_value": 421433.14,
+      "accuracy": 88.24
+    },
+    "BATCH_N_TO_1": {
+      "match_type": "BATCH_N_TO_1",
+      "count": 10,
+      "correct": 10,
+      "incorrect": 0,
+      "financial_value": 107501.64,
+      "accuracy": 100.0
+    },
+    "PARTIAL": {
+      "match_type": "PARTIAL",
+      "count": 5,
+      "correct": 5,
+      "incorrect": 0,
+      "financial_value": 66834.58,
+      "accuracy": 100.0
+    },
+    "MISSING_BANK": {
+      "match_type": "MISSING_BANK",
+      "count": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "financial_value": 100827.96,
+      "accuracy": 100.0
+    },
+    "MISSING_ERP": {
+      "match_type": "MISSING_ERP",
+      "count": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "financial_value": 1464.6,
+      "accuracy": 100.0
+    }
+  },
+  "review_quality": {
+    "review_count": 24,
+    "correct_review_count": 24,
+    "incorrect_review_count": 0,
+    "review_precision": 100.0,
+    "review_rate": 24.0
+  },
+  "autonomous_resolution": {
+    "total_autonomous_resolutions": 76,
+    "correct_autonomous_resolutions": 70,
+    "safe_autonomous_resolution_rate": 92.11
+  },
+  "failures": [
+    {
+      "case_id": "CASE-0089",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50113",
+        "TXN-50114"
+      ],
+      "gt_bank_ids": [
+        "BANK-80089"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50113"
+      ],
+      "engine_bank_ids": [
+        "BANK-80089"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 1171.68,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50114'}"
+    },
+    {
+      "case_id": "CASE-0090",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50115",
+        "TXN-50116"
+      ],
+      "gt_bank_ids": [
+        "BANK-80090"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50115"
+      ],
+      "engine_bank_ids": [
+        "BANK-80090"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 12205.0,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50116'}"
+    },
+    {
+      "case_id": "CASE-0091",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50117",
+        "TXN-50118"
+      ],
+      "gt_bank_ids": [
+        "BANK-80091"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50117"
+      ],
+      "engine_bank_ids": [
+        "BANK-80091"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 2392.18,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50118'}"
+    },
+    {
+      "case_id": "CASE-0092",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50119",
+        "TXN-50120"
+      ],
+      "gt_bank_ids": [
+        "BANK-80092"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50119"
+      ],
+      "engine_bank_ids": [
+        "BANK-80092"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 6053.68,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50120'}"
+    },
+    {
+      "case_id": "CASE-0096",
+      "scenario": "MISSING_ERP",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50124"
+      ],
+      "gt_bank_ids": [
+        "BANK-80093"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50124"
+      ],
+      "engine_bank_ids": [
+        "BANK-80093"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 8299.4,
+      "failure_reason": "OTHER",
+      "failure_detail": "Could not determine specific failure reason"
+    },
+    {
+      "case_id": "CASE-0097",
+      "scenario": "MISSING_ERP",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50125"
+      ],
+      "gt_bank_ids": [
+        "BANK-80094"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50125"
+      ],
+      "engine_bank_ids": [
+        "BANK-80094"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 12205.0,
+      "failure_reason": "OTHER",
+      "failure_detail": "Could not determine specific failure reason"
+    }
+  ],
+  "false_positive_details": [
+    {
+      "case_id": "CASE-0089",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50113",
+        "TXN-50114"
+      ],
+      "gt_bank_ids": [
+        "BANK-80089"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50113"
+      ],
+      "engine_bank_ids": [
+        "BANK-80089"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 1171.68,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50114'}"
+    },
+    {
+      "case_id": "CASE-0090",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50115",
+        "TXN-50116"
+      ],
+      "gt_bank_ids": [
+        "BANK-80090"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50115"
+      ],
+      "engine_bank_ids": [
+        "BANK-80090"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 12205.0,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50116'}"
+    },
+    {
+      "case_id": "CASE-0091",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50117",
+        "TXN-50118"
+      ],
+      "gt_bank_ids": [
+        "BANK-80091"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50117"
+      ],
+      "engine_bank_ids": [
+        "BANK-80091"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 2392.18,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50118'}"
+    },
+    {
+      "case_id": "CASE-0092",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50119",
+        "TXN-50120"
+      ],
+      "gt_bank_ids": [
+        "BANK-80092"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50119"
+      ],
+      "engine_bank_ids": [
+        "BANK-80092"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 6053.68,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50120'}"
+    },
+    {
+      "case_id": "CASE-0096",
+      "scenario": "MISSING_ERP",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50124"
+      ],
+      "gt_bank_ids": [
+        "BANK-80093"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50124"
+      ],
+      "engine_bank_ids": [
+        "BANK-80093"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 8299.4,
+      "failure_reason": "OTHER",
+      "failure_detail": "Could not determine specific failure reason"
+    },
+    {
+      "case_id": "CASE-0097",
+      "scenario": "MISSING_ERP",
+      "outcome": "FALSE_POSITIVE",
+      "gt_gateway_ids": [
+        "TXN-50125"
+      ],
+      "gt_bank_ids": [
+        "BANK-80094"
+      ],
+      "engine_gateway_ids": [
+        "TXN-50125"
+      ],
+      "engine_bank_ids": [
+        "BANK-80094"
+      ],
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_confidence": 0.99,
+      "financial_value": 12205.0,
+      "failure_reason": "OTHER",
+      "failure_detail": "Could not determine specific failure reason"
+    }
+  ],
+  "false_negative_details": [],
+  "case_evaluations": [
+    {
+      "case_id": "CASE-0001",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10001"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50001"
+      ],
+      "gt_settlement_id": "SET-20260825-001",
+      "gt_bank_transaction_ids": [
+        "BANK-80001"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 2450.0,
+      "gt_actual_bank_amount": 2450.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00001",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50001"
+      ],
+      "engine_bank_ids": [
+        "BANK-80001"
+      ],
+      "engine_expected_amount": 2450.0,
+      "engine_actual_amount": 2450.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b92,450.00\nBank credit: \u20b92,450.00\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 2450.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0002",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10002"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50002"
+      ],
+      "gt_settlement_id": "SET-20260817-002",
+      "gt_bank_transaction_ids": [
+        "BANK-80002"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 750.0,
+      "gt_actual_bank_amount": 750.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00002",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50002"
+      ],
+      "engine_bank_ids": [
+        "BANK-80002"
+      ],
+      "engine_expected_amount": 750.0,
+      "engine_actual_amount": 750.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b9750.00\nBank credit: \u20b9750.00\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 750.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0003",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10003"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50003"
+      ],
+      "gt_settlement_id": "SET-20260816-003",
+      "gt_bank_transaction_ids": [
+        "BANK-80003"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 24000.0,
+      "gt_actual_bank_amount": 24000.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00003",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50003"
+      ],
+      "engine_bank_ids": [
+        "BANK-80003"
+      ],
+      "engine_expected_amount": 24000.0,
+      "engine_actual_amount": 24000.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b924,000.00\nBank credit: \u20b924,000.00\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 24000.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0004",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10004"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50004"
+      ],
+      "gt_settlement_id": "SET-20260821-004",
+      "gt_bank_transaction_ids": [
+        "BANK-80004"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18900.0,
+      "gt_actual_bank_amount": 18900.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00004",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50004"
+      ],
+      "engine_bank_ids": [
+        "BANK-80004"
+      ],
+      "engine_expected_amount": 18900.0,
+      "engine_actual_amount": 18900.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b918,900.00\nBank credit: \u20b918,900.00\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 18900.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0005",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10005"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50005"
+      ],
+      "gt_settlement_id": "SET-20260821-005",
+      "gt_bank_transaction_ids": [
+        "BANK-80005"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 6200.0,
+      "gt_actual_bank_amount": 6200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00005",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50005"
+      ],
+      "engine_bank_ids": [
+        "BANK-80005"
+      ],
+      "engine_expected_amount": 6200.0,
+      "engine_actual_amount": 6200.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b96,200.00\nBank credit: \u20b96,200.00\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 6200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0006",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10006"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50006"
+      ],
+      "gt_settlement_id": "SET-20260819-006",
+      "gt_bank_transaction_ids": [
+        "BANK-80006"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18900.0,
+      "gt_actual_bank_amount": 18900.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00006",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50006"
+      ],
+      "engine_bank_ids": [
+        "BANK-80006"
+      ],
+      "engine_expected_amount": 18900.0,
+      "engine_actual_amount": 18900.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b918,900.00\nBank credit: \u20b918,900.00\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 18900.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0007",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10007"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50007"
+      ],
+      "gt_settlement_id": "SET-20260822-007",
+      "gt_bank_transaction_ids": [
+        "BANK-80007"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 3999.0,
+      "gt_actual_bank_amount": 3999.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00007",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50007"
+      ],
+      "engine_bank_ids": [
+        "BANK-80007"
+      ],
+      "engine_expected_amount": 3999.0,
+      "engine_actual_amount": 3999.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b93,999.00\nBank credit: \u20b93,999.00\nDifference: \u20b90.00\nGross captured: \u20b93,999.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 3999.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0008",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10008"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50008"
+      ],
+      "gt_settlement_id": "SET-20260815-008",
+      "gt_bank_transaction_ids": [
+        "BANK-80008"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 12500.0,
+      "gt_actual_bank_amount": 12500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00008",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50008"
+      ],
+      "engine_bank_ids": [
+        "BANK-80008"
+      ],
+      "engine_expected_amount": 12500.0,
+      "engine_actual_amount": 12500.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b912,500.00\nBank credit: \u20b912,500.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 12500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0009",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10009"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50009"
+      ],
+      "gt_settlement_id": "SET-20260816-009",
+      "gt_bank_transaction_ids": [
+        "BANK-80009"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 12500.0,
+      "gt_actual_bank_amount": 12500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00009",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50009"
+      ],
+      "engine_bank_ids": [
+        "BANK-80009"
+      ],
+      "engine_expected_amount": 12500.0,
+      "engine_actual_amount": 12500.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b912,500.00\nBank credit: \u20b912,500.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 12500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0010",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10010"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50010"
+      ],
+      "gt_settlement_id": "SET-20260819-010",
+      "gt_bank_transaction_ids": [
+        "BANK-80010"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 3999.0,
+      "gt_actual_bank_amount": 3999.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00010",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50010"
+      ],
+      "engine_bank_ids": [
+        "BANK-80010"
+      ],
+      "engine_expected_amount": 3999.0,
+      "engine_actual_amount": 3999.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b93,999.00\nBank credit: \u20b93,999.00\nDifference: \u20b90.00\nGross captured: \u20b93,999.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 3999.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0011",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10011"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50011"
+      ],
+      "gt_settlement_id": "SET-20260816-011",
+      "gt_bank_transaction_ids": [
+        "BANK-80011"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 6200.0,
+      "gt_actual_bank_amount": 6200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00011",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50011"
+      ],
+      "engine_bank_ids": [
+        "BANK-80011"
+      ],
+      "engine_expected_amount": 6200.0,
+      "engine_actual_amount": 6200.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b96,200.00\nBank credit: \u20b96,200.00\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 6200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0012",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10012"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50012"
+      ],
+      "gt_settlement_id": "SET-20260824-012",
+      "gt_bank_transaction_ids": [
+        "BANK-80012"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 12500.0,
+      "gt_actual_bank_amount": 12500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00012",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50012"
+      ],
+      "engine_bank_ids": [
+        "BANK-80012"
+      ],
+      "engine_expected_amount": 12500.0,
+      "engine_actual_amount": 12500.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b912,500.00\nBank credit: \u20b912,500.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 12500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0013",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10013"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50013"
+      ],
+      "gt_settlement_id": "SET-20260823-013",
+      "gt_bank_transaction_ids": [
+        "BANK-80013"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18900.0,
+      "gt_actual_bank_amount": 18900.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00013",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50013"
+      ],
+      "engine_bank_ids": [
+        "BANK-80013"
+      ],
+      "engine_expected_amount": 18900.0,
+      "engine_actual_amount": 18900.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b918,900.00\nBank credit: \u20b918,900.00\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 18900.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0014",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10014"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50014"
+      ],
+      "gt_settlement_id": "SET-20260820-014",
+      "gt_bank_transaction_ids": [
+        "BANK-80014"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 6200.0,
+      "gt_actual_bank_amount": 6200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00014",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50014"
+      ],
+      "engine_bank_ids": [
+        "BANK-80014"
+      ],
+      "engine_expected_amount": 6200.0,
+      "engine_actual_amount": 6200.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b96,200.00\nBank credit: \u20b96,200.00\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 6200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0015",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10015"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50015"
+      ],
+      "gt_settlement_id": "SET-20260820-015",
+      "gt_bank_transaction_ids": [
+        "BANK-80015"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 24000.0,
+      "gt_actual_bank_amount": 24000.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00015",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50015"
+      ],
+      "engine_bank_ids": [
+        "BANK-80015"
+      ],
+      "engine_expected_amount": 24000.0,
+      "engine_actual_amount": 24000.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b924,000.00\nBank credit: \u20b924,000.00\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 24000.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0016",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10016"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50016"
+      ],
+      "gt_settlement_id": "SET-20260823-016",
+      "gt_bank_transaction_ids": [
+        "BANK-80016"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 750.0,
+      "gt_actual_bank_amount": 750.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00016",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50016"
+      ],
+      "engine_bank_ids": [
+        "BANK-80016"
+      ],
+      "engine_expected_amount": 750.0,
+      "engine_actual_amount": 750.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b9750.00\nBank credit: \u20b9750.00\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 750.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0017",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10017"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50017"
+      ],
+      "gt_settlement_id": "SET-20260816-017",
+      "gt_bank_transaction_ids": [
+        "BANK-80017"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18900.0,
+      "gt_actual_bank_amount": 18900.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00017",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50017"
+      ],
+      "engine_bank_ids": [
+        "BANK-80017"
+      ],
+      "engine_expected_amount": 18900.0,
+      "engine_actual_amount": 18900.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b918,900.00\nBank credit: \u20b918,900.00\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 18900.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0018",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10018"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50018"
+      ],
+      "gt_settlement_id": "SET-20260824-018",
+      "gt_bank_transaction_ids": [
+        "BANK-80018"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8500.0,
+      "gt_actual_bank_amount": 8500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00018",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50018"
+      ],
+      "engine_bank_ids": [
+        "BANK-80018"
+      ],
+      "engine_expected_amount": 8500.0,
+      "engine_actual_amount": 8500.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b98,500.00\nBank credit: \u20b98,500.00\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 8500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0019",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10019"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50019"
+      ],
+      "gt_settlement_id": "SET-20260825-019",
+      "gt_bank_transaction_ids": [
+        "BANK-80019"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8500.0,
+      "gt_actual_bank_amount": 8500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00019",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50019"
+      ],
+      "engine_bank_ids": [
+        "BANK-80019"
+      ],
+      "engine_expected_amount": 8500.0,
+      "engine_actual_amount": 8500.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b98,500.00\nBank credit: \u20b98,500.00\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 8500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0020",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10020"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50020"
+      ],
+      "gt_settlement_id": "SET-20260822-020",
+      "gt_bank_transaction_ids": [
+        "BANK-80020"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 6200.0,
+      "gt_actual_bank_amount": 6200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00020",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50020"
+      ],
+      "engine_bank_ids": [
+        "BANK-80020"
+      ],
+      "engine_expected_amount": 6200.0,
+      "engine_actual_amount": 6200.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b96,200.00\nBank credit: \u20b96,200.00\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 6200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0021",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10021"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50021"
+      ],
+      "gt_settlement_id": "SET-20260816-021",
+      "gt_bank_transaction_ids": [
+        "BANK-80021"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 12500.0,
+      "gt_actual_bank_amount": 12500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00021",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50021"
+      ],
+      "engine_bank_ids": [
+        "BANK-80021"
+      ],
+      "engine_expected_amount": 12500.0,
+      "engine_actual_amount": 12500.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b912,500.00\nBank credit: \u20b912,500.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 12500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0022",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10022"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50022"
+      ],
+      "gt_settlement_id": "SET-20260819-022",
+      "gt_bank_transaction_ids": [
+        "BANK-80022"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 6200.0,
+      "gt_actual_bank_amount": 6200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00022",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50022"
+      ],
+      "engine_bank_ids": [
+        "BANK-80022"
+      ],
+      "engine_expected_amount": 6200.0,
+      "engine_actual_amount": 6200.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b96,200.00\nBank credit: \u20b96,200.00\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 6200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0023",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10023"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50023"
+      ],
+      "gt_settlement_id": "SET-20260821-023",
+      "gt_bank_transaction_ids": [
+        "BANK-80023"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8500.0,
+      "gt_actual_bank_amount": 8500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00023",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50023"
+      ],
+      "engine_bank_ids": [
+        "BANK-80023"
+      ],
+      "engine_expected_amount": 8500.0,
+      "engine_actual_amount": 8500.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b98,500.00\nBank credit: \u20b98,500.00\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 8500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0024",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10024"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50024"
+      ],
+      "gt_settlement_id": "SET-20260817-024",
+      "gt_bank_transaction_ids": [
+        "BANK-80024"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18900.0,
+      "gt_actual_bank_amount": 18900.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00024",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50024"
+      ],
+      "engine_bank_ids": [
+        "BANK-80024"
+      ],
+      "engine_expected_amount": 18900.0,
+      "engine_actual_amount": 18900.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b918,900.00\nBank credit: \u20b918,900.00\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 18900.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0025",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10025"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50025"
+      ],
+      "gt_settlement_id": "SET-20260825-025",
+      "gt_bank_transaction_ids": [
+        "BANK-80025"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8500.0,
+      "gt_actual_bank_amount": 8500.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00025",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50025"
+      ],
+      "engine_bank_ids": [
+        "BANK-80025"
+      ],
+      "engine_expected_amount": 8500.0,
+      "engine_actual_amount": 8500.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b98,500.00\nBank credit: \u20b98,500.00\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 8500.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0026",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10026"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50026"
+      ],
+      "gt_settlement_id": "SET-20260822-026",
+      "gt_bank_transaction_ids": [
+        "BANK-80026"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 4850.0,
+      "gt_actual_bank_amount": 4850.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00026",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50026"
+      ],
+      "engine_bank_ids": [
+        "BANK-80026"
+      ],
+      "engine_expected_amount": 4850.0,
+      "engine_actual_amount": 4850.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b94,850.00\nBank credit: \u20b94,850.00\nDifference: \u20b90.00\nGross captured: \u20b94,850.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 4850.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0027",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10027"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50027"
+      ],
+      "gt_settlement_id": "SET-20260818-027",
+      "gt_bank_transaction_ids": [
+        "BANK-80027"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 3999.0,
+      "gt_actual_bank_amount": 3999.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00027",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50027"
+      ],
+      "engine_bank_ids": [
+        "BANK-80027"
+      ],
+      "engine_expected_amount": 3999.0,
+      "engine_actual_amount": 3999.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b93,999.00\nBank credit: \u20b93,999.00\nDifference: \u20b90.00\nGross captured: \u20b93,999.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 3999.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0028",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10028"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50028"
+      ],
+      "gt_settlement_id": "SET-20260818-028",
+      "gt_bank_transaction_ids": [
+        "BANK-80028"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1200.0,
+      "gt_actual_bank_amount": 1200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00028",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50028"
+      ],
+      "engine_bank_ids": [
+        "BANK-80028"
+      ],
+      "engine_expected_amount": 1200.0,
+      "engine_actual_amount": 1200.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b91,200.00\nBank credit: \u20b91,200.00\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 1200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0029",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10029"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50029"
+      ],
+      "gt_settlement_id": "SET-20260816-029",
+      "gt_bank_transaction_ids": [
+        "BANK-80029"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1200.0,
+      "gt_actual_bank_amount": 1200.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00029",
+      "engine_status": "REVIEW",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50029"
+      ],
+      "engine_bank_ids": [
+        "BANK-80029"
+      ],
+      "engine_expected_amount": 1200.0,
+      "engine_actual_amount": 1200.0,
+      "engine_confidence": 0.9,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b91,200.00\nBank credit: \u20b91,200.00\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 1200.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0030",
+      "scenario": "EXACT_MATCH",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10030"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50030"
+      ],
+      "gt_settlement_id": "SET-20260819-030",
+      "gt_bank_transaction_ids": [
+        "BANK-80030"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 2450.0,
+      "gt_actual_bank_amount": 2450.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00030",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "EXACT_1_TO_1",
+      "engine_root_cause": "EXACT_MATCH",
+      "engine_gateway_ids": [
+        "TXN-50030"
+      ],
+      "engine_bank_ids": [
+        "BANK-80030"
+      ],
+      "engine_expected_amount": 2450.0,
+      "engine_actual_amount": 2450.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 using exact deterministic identifiers.\nExpected net settlement: \u20b92,450.00\nBank credit: \u20b92,450.00\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b90.00. GST deducted: \u20b90.00.",
+      "financial_value": 2450.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0031",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10031"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50031"
+      ],
+      "gt_settlement_id": "SET-20260817-031",
+      "gt_bank_transaction_ids": [
+        "BANK-80031"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 3904.62,
+      "gt_actual_bank_amount": 3904.62,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00031",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50031"
+      ],
+      "engine_bank_ids": [
+        "BANK-80031"
+      ],
+      "engine_expected_amount": 3904.62,
+      "engine_actual_amount": 3904.62,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b93,904.62\nBank credit: \u20b93,904.62\nDifference: \u20b90.00\nGross captured: \u20b93,999.00. MDR deducted: \u20b979.98. GST deducted: \u20b914.40.",
+      "financial_value": 3904.62,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0032",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10032"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50032"
+      ],
+      "gt_settlement_id": "SET-20260825-032",
+      "gt_bank_transaction_ids": [
+        "BANK-80032"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1171.68,
+      "gt_actual_bank_amount": 1171.68,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00032",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50032"
+      ],
+      "engine_bank_ids": [
+        "BANK-80032"
+      ],
+      "engine_expected_amount": 1171.68,
+      "engine_actual_amount": 1171.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b91,171.68\nBank credit: \u20b91,171.68\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b924.00. GST deducted: \u20b94.32.",
+      "financial_value": 1171.68,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0033",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10033"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50033"
+      ],
+      "gt_settlement_id": "SET-20260820-033",
+      "gt_bank_transaction_ids": [
+        "BANK-80033"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 12205.0,
+      "gt_actual_bank_amount": 12205.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00033",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50033"
+      ],
+      "engine_bank_ids": [
+        "BANK-80033"
+      ],
+      "engine_expected_amount": 12205.0,
+      "engine_actual_amount": 12205.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b912,205.00\nBank credit: \u20b912,205.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b9250.00. GST deducted: \u20b945.00.",
+      "financial_value": 12205.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0034",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10034"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50034"
+      ],
+      "gt_settlement_id": "SET-20260816-034",
+      "gt_bank_transaction_ids": [
+        "BANK-80034"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 8299.4,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00034",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50034"
+      ],
+      "engine_bank_ids": [
+        "BANK-80034"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 8299.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b98,299.40\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0035",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10035"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50035"
+      ],
+      "gt_settlement_id": "SET-20260819-035",
+      "gt_bank_transaction_ids": [
+        "BANK-80035"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1171.68,
+      "gt_actual_bank_amount": 1171.68,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00035",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50035"
+      ],
+      "engine_bank_ids": [
+        "BANK-80035"
+      ],
+      "engine_expected_amount": 1171.68,
+      "engine_actual_amount": 1171.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b91,171.68\nBank credit: \u20b91,171.68\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b924.00. GST deducted: \u20b94.32.",
+      "financial_value": 1171.68,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0036",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10036"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50036"
+      ],
+      "gt_settlement_id": "SET-20260815-036",
+      "gt_bank_transaction_ids": [
+        "BANK-80036"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 732.3,
+      "gt_actual_bank_amount": 732.3,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00036",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50036"
+      ],
+      "engine_bank_ids": [
+        "BANK-80036"
+      ],
+      "engine_expected_amount": 732.3,
+      "engine_actual_amount": 732.3,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9732.30\nBank credit: \u20b9732.30\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b915.00. GST deducted: \u20b92.70.",
+      "financial_value": 732.3,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0037",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10037"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50037"
+      ],
+      "gt_settlement_id": "SET-20260815-037",
+      "gt_bank_transaction_ids": [
+        "BANK-80037"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 23433.6,
+      "gt_actual_bank_amount": 23433.6,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00037",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50037"
+      ],
+      "engine_bank_ids": [
+        "BANK-80037"
+      ],
+      "engine_expected_amount": 23433.6,
+      "engine_actual_amount": 23433.6,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b923,433.60\nBank credit: \u20b923,433.60\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.",
+      "financial_value": 23433.6,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0038",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10038"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50038"
+      ],
+      "gt_settlement_id": "SET-20260821-038",
+      "gt_bank_transaction_ids": [
+        "BANK-80038"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 8299.4,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00038",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50038"
+      ],
+      "engine_bank_ids": [
+        "BANK-80038"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 8299.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b98,299.40\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0039",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10039"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50039"
+      ],
+      "gt_settlement_id": "SET-20260821-039",
+      "gt_bank_transaction_ids": [
+        "BANK-80039"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 34174.0,
+      "gt_actual_bank_amount": 34174.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00039",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50039"
+      ],
+      "engine_bank_ids": [
+        "BANK-80039"
+      ],
+      "engine_expected_amount": 34174.0,
+      "engine_actual_amount": 34174.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b934,174.00\nBank credit: \u20b934,174.00\nDifference: \u20b90.00\nGross captured: \u20b935,000.00. MDR deducted: \u20b9700.00. GST deducted: \u20b9126.00.",
+      "financial_value": 34174.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0040",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10040"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50040"
+      ],
+      "gt_settlement_id": "SET-20260825-040",
+      "gt_bank_transaction_ids": [
+        "BANK-80040"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 8299.4,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00040",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50040"
+      ],
+      "engine_bank_ids": [
+        "BANK-80040"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 8299.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b98,299.40\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0041",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10041"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50041"
+      ],
+      "gt_settlement_id": "SET-20260816-041",
+      "gt_bank_transaction_ids": [
+        "BANK-80041"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 23433.6,
+      "gt_actual_bank_amount": 23433.6,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00041",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50041"
+      ],
+      "engine_bank_ids": [
+        "BANK-80041"
+      ],
+      "engine_expected_amount": 23433.6,
+      "engine_actual_amount": 23433.6,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b923,433.60\nBank credit: \u20b923,433.60\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.",
+      "financial_value": 23433.6,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0042",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10042"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50042"
+      ],
+      "gt_settlement_id": "SET-20260825-042",
+      "gt_bank_transaction_ids": [
+        "BANK-80042"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 23433.6,
+      "gt_actual_bank_amount": 23433.6,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00042",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50042"
+      ],
+      "engine_bank_ids": [
+        "BANK-80042"
+      ],
+      "engine_expected_amount": 23433.6,
+      "engine_actual_amount": 23433.6,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b923,433.60\nBank credit: \u20b923,433.60\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.",
+      "financial_value": 23433.6,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0043",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10043"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50043"
+      ],
+      "gt_settlement_id": "SET-20260819-043",
+      "gt_bank_transaction_ids": [
+        "BANK-80043"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 2392.18,
+      "gt_actual_bank_amount": 2392.18,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00043",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50043"
+      ],
+      "engine_bank_ids": [
+        "BANK-80043"
+      ],
+      "engine_expected_amount": 2392.18,
+      "engine_actual_amount": 2392.18,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b92,392.18\nBank credit: \u20b92,392.18\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b949.00. GST deducted: \u20b98.82.",
+      "financial_value": 2392.18,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0044",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10044"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50044"
+      ],
+      "gt_settlement_id": "SET-20260818-044",
+      "gt_bank_transaction_ids": [
+        "BANK-80044"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18453.96,
+      "gt_actual_bank_amount": 18453.96,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00044",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50044"
+      ],
+      "engine_bank_ids": [
+        "BANK-80044"
+      ],
+      "engine_expected_amount": 18453.96,
+      "engine_actual_amount": 18453.96,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b918,453.96\nBank credit: \u20b918,453.96\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.",
+      "financial_value": 18453.96,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0045",
+      "scenario": "MDR_GST",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10045"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50045"
+      ],
+      "gt_settlement_id": "SET-20260821-045",
+      "gt_bank_transaction_ids": [
+        "BANK-80045"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 8299.4,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00045",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50045"
+      ],
+      "engine_bank_ids": [
+        "BANK-80045"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 8299.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b98,299.40\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0046",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10046"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50046"
+      ],
+      "gt_settlement_id": "SET-20260818-046",
+      "gt_bank_transaction_ids": [
+        "BANK-80046"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18453.96,
+      "gt_actual_bank_amount": 18453.96,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00046",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50046"
+      ],
+      "engine_bank_ids": [
+        "BANK-80046"
+      ],
+      "engine_expected_amount": 18453.96,
+      "engine_actual_amount": 18453.96,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b918,453.96\nBank credit: \u20b918,453.96\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.",
+      "financial_value": 18453.96,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0047",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10047"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50047"
+      ],
+      "gt_settlement_id": "SET-20260821-047",
+      "gt_bank_transaction_ids": [
+        "BANK-80047"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1171.68,
+      "gt_actual_bank_amount": 1171.68,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00047",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50047"
+      ],
+      "engine_bank_ids": [
+        "BANK-80047"
+      ],
+      "engine_expected_amount": 1171.68,
+      "engine_actual_amount": 1171.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b91,171.68\nBank credit: \u20b91,171.68\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b924.00. GST deducted: \u20b94.32.",
+      "financial_value": 1171.68,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0048",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10048"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50048"
+      ],
+      "gt_settlement_id": "SET-20260824-048",
+      "gt_bank_transaction_ids": [
+        "BANK-80048"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 2392.18,
+      "gt_actual_bank_amount": 2392.18,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00048",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50048"
+      ],
+      "engine_bank_ids": [
+        "BANK-80048"
+      ],
+      "engine_expected_amount": 2392.18,
+      "engine_actual_amount": 2392.18,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b92,392.18\nBank credit: \u20b92,392.18\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b949.00. GST deducted: \u20b98.82.",
+      "financial_value": 2392.18,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0049",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10049"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50049"
+      ],
+      "gt_settlement_id": "SET-20260818-049",
+      "gt_bank_transaction_ids": [
+        "BANK-80049"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 732.3,
+      "gt_actual_bank_amount": 732.3,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00049",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50049"
+      ],
+      "engine_bank_ids": [
+        "BANK-80049"
+      ],
+      "engine_expected_amount": 732.3,
+      "engine_actual_amount": 732.3,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9732.30\nBank credit: \u20b9732.30\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b915.00. GST deducted: \u20b92.70.",
+      "financial_value": 732.3,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0050",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10050"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50050"
+      ],
+      "gt_settlement_id": "SET-20260822-050",
+      "gt_bank_transaction_ids": [
+        "BANK-80050"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 732.3,
+      "gt_actual_bank_amount": 732.3,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00050",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50050"
+      ],
+      "engine_bank_ids": [
+        "BANK-80050"
+      ],
+      "engine_expected_amount": 732.3,
+      "engine_actual_amount": 732.3,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9732.30\nBank credit: \u20b9732.30\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b915.00. GST deducted: \u20b92.70.",
+      "financial_value": 732.3,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0051",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10051"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50051"
+      ],
+      "gt_settlement_id": "SET-20260826-051",
+      "gt_bank_transaction_ids": [
+        "BANK-80051"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 6053.68,
+      "gt_actual_bank_amount": 6053.68,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00051",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50051"
+      ],
+      "engine_bank_ids": [
+        "BANK-80051"
+      ],
+      "engine_expected_amount": 6053.68,
+      "engine_actual_amount": 6053.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b96,053.68\nBank credit: \u20b96,053.68\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b9124.00. GST deducted: \u20b922.32.",
+      "financial_value": 6053.68,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0052",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10052"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50052"
+      ],
+      "gt_settlement_id": "SET-20260822-052",
+      "gt_bank_transaction_ids": [
+        "BANK-80052"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 2392.18,
+      "gt_actual_bank_amount": 2392.18,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00052",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50052"
+      ],
+      "engine_bank_ids": [
+        "BANK-80052"
+      ],
+      "engine_expected_amount": 2392.18,
+      "engine_actual_amount": 2392.18,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b92,392.18\nBank credit: \u20b92,392.18\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b949.00. GST deducted: \u20b98.82.",
+      "financial_value": 2392.18,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0053",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10053"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50053"
+      ],
+      "gt_settlement_id": "SET-20260825-053",
+      "gt_bank_transaction_ids": [
+        "BANK-80053"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 23433.6,
+      "gt_actual_bank_amount": 23433.6,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00053",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50053"
+      ],
+      "engine_bank_ids": [
+        "BANK-80053"
+      ],
+      "engine_expected_amount": 23433.6,
+      "engine_actual_amount": 23433.6,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b923,433.60\nBank credit: \u20b923,433.60\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.",
+      "financial_value": 23433.6,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0054",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10054"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50054"
+      ],
+      "gt_settlement_id": "SET-20260825-054",
+      "gt_bank_transaction_ids": [
+        "BANK-80054"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18453.96,
+      "gt_actual_bank_amount": 18453.96,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00054",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50054"
+      ],
+      "engine_bank_ids": [
+        "BANK-80054"
+      ],
+      "engine_expected_amount": 18453.96,
+      "engine_actual_amount": 18453.96,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b918,453.96\nBank credit: \u20b918,453.96\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.",
+      "financial_value": 18453.96,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0055",
+      "scenario": "T_PLUS_1",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10055"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50055"
+      ],
+      "gt_settlement_id": "SET-20260826-055",
+      "gt_bank_transaction_ids": [
+        "BANK-80055"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 732.3,
+      "gt_actual_bank_amount": 732.3,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00055",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50055"
+      ],
+      "engine_bank_ids": [
+        "BANK-80055"
+      ],
+      "engine_expected_amount": 732.3,
+      "engine_actual_amount": 732.3,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9732.30\nBank credit: \u20b9732.30\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b915.00. GST deducted: \u20b92.70.",
+      "financial_value": 732.3,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0056",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10056"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50056"
+      ],
+      "gt_settlement_id": "SET-20260827-056",
+      "gt_bank_transaction_ids": [
+        "BANK-80056"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 23433.6,
+      "gt_actual_bank_amount": 23433.6,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00056",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50056"
+      ],
+      "engine_bank_ids": [
+        "BANK-80056"
+      ],
+      "engine_expected_amount": 23433.6,
+      "engine_actual_amount": 23433.6,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b923,433.60\nBank credit: \u20b923,433.60\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.",
+      "financial_value": 23433.6,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0057",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10057"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50057"
+      ],
+      "gt_settlement_id": "SET-20260819-057",
+      "gt_bank_transaction_ids": [
+        "BANK-80057"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 34174.0,
+      "gt_actual_bank_amount": 34174.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00057",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50057"
+      ],
+      "engine_bank_ids": [
+        "BANK-80057"
+      ],
+      "engine_expected_amount": 34174.0,
+      "engine_actual_amount": 34174.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b934,174.00\nBank credit: \u20b934,174.00\nDifference: \u20b90.00\nGross captured: \u20b935,000.00. MDR deducted: \u20b9700.00. GST deducted: \u20b9126.00.",
+      "financial_value": 34174.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0058",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10058"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50058"
+      ],
+      "gt_settlement_id": "SET-20260820-058",
+      "gt_bank_transaction_ids": [
+        "BANK-80058"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 3904.62,
+      "gt_actual_bank_amount": 3904.62,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00058",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50058"
+      ],
+      "engine_bank_ids": [
+        "BANK-80058"
+      ],
+      "engine_expected_amount": 3904.62,
+      "engine_actual_amount": 3904.62,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b93,904.62\nBank credit: \u20b93,904.62\nDifference: \u20b90.00\nGross captured: \u20b93,999.00. MDR deducted: \u20b979.98. GST deducted: \u20b914.40.",
+      "financial_value": 3904.62,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0059",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10059"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50059"
+      ],
+      "gt_settlement_id": "SET-20260818-059",
+      "gt_bank_transaction_ids": [
+        "BANK-80059"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 4735.54,
+      "gt_actual_bank_amount": 4735.54,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00059",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50059"
+      ],
+      "engine_bank_ids": [
+        "BANK-80059"
+      ],
+      "engine_expected_amount": 4735.54,
+      "engine_actual_amount": 4735.54,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b94,735.54\nBank credit: \u20b94,735.54\nDifference: \u20b90.00\nGross captured: \u20b94,850.00. MDR deducted: \u20b997.00. GST deducted: \u20b917.46.",
+      "financial_value": 4735.54,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0060",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10060"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50060"
+      ],
+      "gt_settlement_id": "SET-20260818-060",
+      "gt_bank_transaction_ids": [
+        "BANK-80060"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 23433.6,
+      "gt_actual_bank_amount": 23433.6,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00060",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50060"
+      ],
+      "engine_bank_ids": [
+        "BANK-80060"
+      ],
+      "engine_expected_amount": 23433.6,
+      "engine_actual_amount": 23433.6,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b923,433.60\nBank credit: \u20b923,433.60\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.",
+      "financial_value": 23433.6,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0061",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10061"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50061"
+      ],
+      "gt_settlement_id": "SET-20260824-061",
+      "gt_bank_transaction_ids": [
+        "BANK-80061"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 4735.54,
+      "gt_actual_bank_amount": 4735.54,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00061",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50061"
+      ],
+      "engine_bank_ids": [
+        "BANK-80061"
+      ],
+      "engine_expected_amount": 4735.54,
+      "engine_actual_amount": 4735.54,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b94,735.54\nBank credit: \u20b94,735.54\nDifference: \u20b90.00\nGross captured: \u20b94,850.00. MDR deducted: \u20b997.00. GST deducted: \u20b917.46.",
+      "financial_value": 4735.54,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0062",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10062"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50062"
+      ],
+      "gt_settlement_id": "SET-20260824-062",
+      "gt_bank_transaction_ids": [
+        "BANK-80062"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 487.22,
+      "gt_actual_bank_amount": 487.22,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00062",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50062"
+      ],
+      "engine_bank_ids": [
+        "BANK-80062"
+      ],
+      "engine_expected_amount": 487.22,
+      "engine_actual_amount": 487.22,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9487.22\nBank credit: \u20b9487.22\nDifference: \u20b90.00\nGross captured: \u20b9499.00. MDR deducted: \u20b99.98. GST deducted: \u20b91.80.",
+      "financial_value": 487.22,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0063",
+      "scenario": "T_PLUS_2",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10063"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50063"
+      ],
+      "gt_settlement_id": "SET-20260819-063",
+      "gt_bank_transaction_ids": [
+        "BANK-80063"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 4735.54,
+      "gt_actual_bank_amount": 4735.54,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00063",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50063"
+      ],
+      "engine_bank_ids": [
+        "BANK-80063"
+      ],
+      "engine_expected_amount": 4735.54,
+      "engine_actual_amount": 4735.54,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b94,735.54\nBank credit: \u20b94,735.54\nDifference: \u20b90.00\nGross captured: \u20b94,850.00. MDR deducted: \u20b997.00. GST deducted: \u20b917.46.",
+      "financial_value": 4735.54,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0064",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10064",
+        "ORD-10065",
+        "ORD-10066",
+        "ORD-10067"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50064",
+        "TXN-50065",
+        "TXN-50066",
+        "TXN-50067"
+      ],
+      "gt_settlement_id": "SET-20260816-064",
+      "gt_bank_transaction_ids": [
+        "BANK-80064"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 9764.0,
+      "gt_actual_bank_amount": 9764.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00087",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50064",
+        "TXN-50065",
+        "TXN-50066",
+        "TXN-50067"
+      ],
+      "engine_bank_ids": [
+        "BANK-80064"
+      ],
+      "engine_expected_amount": 9764.0,
+      "engine_actual_amount": 9764.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 4 transactions to 1 bank deposit.\nExpected net settlement: \u20b99,764.00\nBank credit: \u20b99,764.00\nDifference: \u20b90.00\nGross captured: \u20b910,000.00. MDR deducted: \u20b9200.00. GST deducted: \u20b936.00.",
+      "financial_value": 9764.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0065",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10068",
+        "ORD-10069",
+        "ORD-10070"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50068",
+        "TXN-50069",
+        "TXN-50070"
+      ],
+      "gt_settlement_id": "SET-20260817-065",
+      "gt_bank_transaction_ids": [
+        "BANK-80065"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 8494.68,
+      "gt_actual_bank_amount": 8494.68,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00088",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50068",
+        "TXN-50069",
+        "TXN-50070"
+      ],
+      "engine_bank_ids": [
+        "BANK-80065"
+      ],
+      "engine_expected_amount": 8494.68,
+      "engine_actual_amount": 8494.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 3 transactions to 1 bank deposit.\nExpected net settlement: \u20b98,494.68\nBank credit: \u20b98,494.68\nDifference: \u20b90.00\nGross captured: \u20b98,700.00. MDR deducted: \u20b9174.00. GST deducted: \u20b931.32.",
+      "financial_value": 8494.68,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0066",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10071",
+        "ORD-10072",
+        "ORD-10073",
+        "ORD-10074"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50071",
+        "TXN-50072",
+        "TXN-50073",
+        "TXN-50074"
+      ],
+      "gt_settlement_id": "SET-20260818-066",
+      "gt_bank_transaction_ids": [
+        "BANK-80066"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 14157.8,
+      "gt_actual_bank_amount": 14157.8,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00089",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50071",
+        "TXN-50072",
+        "TXN-50073",
+        "TXN-50074"
+      ],
+      "engine_bank_ids": [
+        "BANK-80066"
+      ],
+      "engine_expected_amount": 14157.8,
+      "engine_actual_amount": 14157.8,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 4 transactions to 1 bank deposit.\nExpected net settlement: \u20b914,157.80\nBank credit: \u20b914,157.80\nDifference: \u20b90.00\nGross captured: \u20b914,500.00. MDR deducted: \u20b9290.00. GST deducted: \u20b952.20.",
+      "financial_value": 14157.8,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0067",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10075",
+        "ORD-10076"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50075",
+        "TXN-50076"
+      ],
+      "gt_settlement_id": "SET-20260818-067",
+      "gt_bank_transaction_ids": [
+        "BANK-80067"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 7323.0,
+      "gt_actual_bank_amount": 7323.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00090",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50075",
+        "TXN-50076"
+      ],
+      "engine_bank_ids": [
+        "BANK-80067"
+      ],
+      "engine_expected_amount": 7323.0,
+      "engine_actual_amount": 7323.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 2 transactions to 1 bank deposit.\nExpected net settlement: \u20b97,323.00\nBank credit: \u20b97,323.00\nDifference: \u20b90.00\nGross captured: \u20b97,500.00. MDR deducted: \u20b9150.00. GST deducted: \u20b927.00.",
+      "financial_value": 7323.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0068",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10077",
+        "ORD-10078",
+        "ORD-10079"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50077",
+        "TXN-50078",
+        "TXN-50079"
+      ],
+      "gt_settlement_id": "SET-20260817-068",
+      "gt_bank_transaction_ids": [
+        "BANK-80068"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 8982.88,
+      "gt_actual_bank_amount": 8982.88,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00091",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50077",
+        "TXN-50078",
+        "TXN-50079"
+      ],
+      "engine_bank_ids": [
+        "BANK-80068"
+      ],
+      "engine_expected_amount": 8982.88,
+      "engine_actual_amount": 8982.88,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 3 transactions to 1 bank deposit.\nExpected net settlement: \u20b98,982.88\nBank credit: \u20b98,982.88\nDifference: \u20b90.00\nGross captured: \u20b99,200.00. MDR deducted: \u20b9184.00. GST deducted: \u20b933.12.",
+      "financial_value": 8982.88,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0069",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10080",
+        "ORD-10081",
+        "ORD-10082",
+        "ORD-10083"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50080",
+        "TXN-50081",
+        "TXN-50082",
+        "TXN-50083"
+      ],
+      "gt_settlement_id": "SET-20260825-069",
+      "gt_bank_transaction_ids": [
+        "BANK-80069"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 9471.08,
+      "gt_actual_bank_amount": 9471.08,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00092",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50080",
+        "TXN-50081",
+        "TXN-50082",
+        "TXN-50083"
+      ],
+      "engine_bank_ids": [
+        "BANK-80069"
+      ],
+      "engine_expected_amount": 9471.08,
+      "engine_actual_amount": 9471.08,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 4 transactions to 1 bank deposit.\nExpected net settlement: \u20b99,471.08\nBank credit: \u20b99,471.08\nDifference: \u20b90.00\nGross captured: \u20b99,700.00. MDR deducted: \u20b9194.00. GST deducted: \u20b934.92.",
+      "financial_value": 9471.08,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0070",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10084",
+        "ORD-10085"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50084",
+        "TXN-50085"
+      ],
+      "gt_settlement_id": "SET-20260818-070",
+      "gt_bank_transaction_ids": [
+        "BANK-80070"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 8201.76,
+      "gt_actual_bank_amount": 8201.76,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00093",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50084",
+        "TXN-50085"
+      ],
+      "engine_bank_ids": [
+        "BANK-80070"
+      ],
+      "engine_expected_amount": 8201.76,
+      "engine_actual_amount": 8201.76,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 2 transactions to 1 bank deposit.\nExpected net settlement: \u20b98,201.76\nBank credit: \u20b98,201.76\nDifference: \u20b90.00\nGross captured: \u20b98,400.00. MDR deducted: \u20b9168.00. GST deducted: \u20b930.24.",
+      "financial_value": 8201.76,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0071",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10086",
+        "ORD-10087",
+        "ORD-10088",
+        "ORD-10089"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50086",
+        "TXN-50087",
+        "TXN-50088",
+        "TXN-50089"
+      ],
+      "gt_settlement_id": "SET-20260817-071",
+      "gt_bank_transaction_ids": [
+        "BANK-80071"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 14353.08,
+      "gt_actual_bank_amount": 14353.08,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00094",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50086",
+        "TXN-50087",
+        "TXN-50088",
+        "TXN-50089"
+      ],
+      "engine_bank_ids": [
+        "BANK-80071"
+      ],
+      "engine_expected_amount": 14353.08,
+      "engine_actual_amount": 14353.08,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 4 transactions to 1 bank deposit.\nExpected net settlement: \u20b914,353.08\nBank credit: \u20b914,353.08\nDifference: \u20b90.00\nGross captured: \u20b914,700.00. MDR deducted: \u20b9294.00. GST deducted: \u20b952.92.",
+      "financial_value": 14353.08,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0072",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10090",
+        "ORD-10091",
+        "ORD-10092",
+        "ORD-10093"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50090",
+        "TXN-50091",
+        "TXN-50092",
+        "TXN-50093"
+      ],
+      "gt_settlement_id": "SET-20260823-072",
+      "gt_bank_transaction_ids": [
+        "BANK-80072"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 16012.96,
+      "gt_actual_bank_amount": 16012.96,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00095",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50090",
+        "TXN-50091",
+        "TXN-50092",
+        "TXN-50093"
+      ],
+      "engine_bank_ids": [
+        "BANK-80072"
+      ],
+      "engine_expected_amount": 16012.96,
+      "engine_actual_amount": 16012.96,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 4 transactions to 1 bank deposit.\nExpected net settlement: \u20b916,012.96\nBank credit: \u20b916,012.96\nDifference: \u20b90.00\nGross captured: \u20b916,400.00. MDR deducted: \u20b9328.00. GST deducted: \u20b959.04.",
+      "financial_value": 16012.96,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0073",
+      "scenario": "BATCH_SETTLEMENT",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10094",
+        "ORD-10095",
+        "ORD-10096",
+        "ORD-10097"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50094",
+        "TXN-50095",
+        "TXN-50096",
+        "TXN-50097"
+      ],
+      "gt_settlement_id": "SET-20260823-073",
+      "gt_bank_transaction_ids": [
+        "BANK-80073"
+      ],
+      "gt_expected_relationship": "N_TO_1",
+      "gt_expected_net_amount": 10740.4,
+      "gt_actual_bank_amount": 10740.4,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00096",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "BATCH_N_TO_1",
+      "engine_root_cause": "BATCH_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50094",
+        "TXN-50095",
+        "TXN-50096",
+        "TXN-50097"
+      ],
+      "engine_bank_ids": [
+        "BANK-80073"
+      ],
+      "engine_expected_amount": 10740.4,
+      "engine_actual_amount": 10740.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched batch settlement: 4 transactions to 1 bank deposit.\nExpected net settlement: \u20b910,740.40\nBank credit: \u20b910,740.40\nDifference: \u20b90.00\nGross captured: \u20b911,000.00. MDR deducted: \u20b9220.00. GST deducted: \u20b939.60.",
+      "financial_value": 10740.4,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0074",
+      "scenario": "REFUND",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10098"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50098"
+      ],
+      "gt_settlement_id": "SET-20260816-074",
+      "gt_bank_transaction_ids": [
+        "BANK-80074"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -446.04,
+      "gt_actual_bank_amount": -446.04,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00064",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "REFUND",
+      "engine_gateway_ids": [
+        "TXN-50098"
+      ],
+      "engine_bank_ids": [
+        "BANK-80074"
+      ],
+      "engine_expected_amount": -446.04,
+      "engine_actual_amount": -446.04,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-446.04\nBank credit: \u20b9-446.04\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.\nRefund deducted: \u20b918,900.00.",
+      "financial_value": 446.04,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0075",
+      "scenario": "REFUND",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10099"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50099"
+      ],
+      "gt_settlement_id": "SET-20260817-075",
+      "gt_bank_transaction_ids": [
+        "BANK-80075"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1167.18,
+      "gt_actual_bank_amount": 1167.18,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00065",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "REFUND",
+      "engine_gateway_ids": [
+        "TXN-50099"
+      ],
+      "engine_bank_ids": [
+        "BANK-80075"
+      ],
+      "engine_expected_amount": 1167.18,
+      "engine_actual_amount": 1167.18,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b91,167.18\nBank credit: \u20b91,167.18\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b949.00. GST deducted: \u20b98.82.\nRefund deducted: \u20b91,225.00.",
+      "financial_value": 1167.18,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0076",
+      "scenario": "REFUND",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10100"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50100"
+      ],
+      "gt_settlement_id": "SET-20260817-076",
+      "gt_bank_transaction_ids": [
+        "BANK-80076"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 5955.0,
+      "gt_actual_bank_amount": 5955.0,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00066",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "REFUND",
+      "engine_gateway_ids": [
+        "TXN-50100"
+      ],
+      "engine_bank_ids": [
+        "BANK-80076"
+      ],
+      "engine_expected_amount": 5955.0,
+      "engine_actual_amount": 5955.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b95,955.00\nBank credit: \u20b95,955.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b9250.00. GST deducted: \u20b945.00.\nRefund deducted: \u20b96,250.00.",
+      "financial_value": 5955.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0077",
+      "scenario": "REFUND",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10101"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50101"
+      ],
+      "gt_settlement_id": "SET-20260820-077",
+      "gt_bank_transaction_ids": [
+        "BANK-80077"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -57.82,
+      "gt_actual_bank_amount": -57.82,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00067",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "REFUND",
+      "engine_gateway_ids": [
+        "TXN-50101"
+      ],
+      "engine_bank_ids": [
+        "BANK-80077"
+      ],
+      "engine_expected_amount": -57.82,
+      "engine_actual_amount": -57.82,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-57.82\nBank credit: \u20b9-57.82\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b949.00. GST deducted: \u20b98.82.\nRefund deducted: \u20b92,450.00.",
+      "financial_value": 57.82,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0078",
+      "scenario": "REFUND",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10102"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50102"
+      ],
+      "gt_settlement_id": "SET-20260820-078",
+      "gt_bank_transaction_ids": [
+        "BANK-80078"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 9003.96,
+      "gt_actual_bank_amount": 9003.96,
+      "gt_root_cause": null,
+      "gt_is_exception": false,
+      "engine_reconciliation_id": "REC-00068",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "REFUND",
+      "engine_gateway_ids": [
+        "TXN-50102"
+      ],
+      "engine_bank_ids": [
+        "BANK-80078"
+      ],
+      "engine_expected_amount": 9003.96,
+      "engine_actual_amount": 9003.96,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b99,003.96\nBank credit: \u20b99,003.96\nDifference: \u20b90.00\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.\nRefund deducted: \u20b99,450.00.",
+      "financial_value": 9003.96,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0079",
+      "scenario": "CHARGEBACK",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10103"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50103"
+      ],
+      "gt_settlement_id": "SET-20260823-079",
+      "gt_bank_transaction_ids": [
+        "BANK-80079"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -566.4,
+      "gt_actual_bank_amount": 0.0,
+      "gt_root_cause": "CHARGEBACK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00069",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "CHARGEBACK",
+      "engine_gateway_ids": [
+        "TXN-50103"
+      ],
+      "engine_bank_ids": [
+        "BANK-80079"
+      ],
+      "engine_expected_amount": -566.4,
+      "engine_actual_amount": -566.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-566.40\nBank credit: \u20b9-566.40\nDifference: \u20b90.00\nGross captured: \u20b924,000.00. MDR deducted: \u20b9480.00. GST deducted: \u20b986.40.\nChargeback deducted: \u20b924,000.00.",
+      "financial_value": 566.4,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0080",
+      "scenario": "CHARGEBACK",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10104"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50104"
+      ],
+      "gt_settlement_id": "SET-20260821-080",
+      "gt_bank_transaction_ids": [
+        "BANK-80080"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -826.0,
+      "gt_actual_bank_amount": 0.0,
+      "gt_root_cause": "CHARGEBACK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00070",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "CHARGEBACK",
+      "engine_gateway_ids": [
+        "TXN-50104"
+      ],
+      "engine_bank_ids": [
+        "BANK-80080"
+      ],
+      "engine_expected_amount": -826.0,
+      "engine_actual_amount": -826.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-826.00\nBank credit: \u20b9-826.00\nDifference: \u20b90.00\nGross captured: \u20b935,000.00. MDR deducted: \u20b9700.00. GST deducted: \u20b9126.00.\nChargeback deducted: \u20b935,000.00.",
+      "financial_value": 826.0,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0081",
+      "scenario": "CHARGEBACK",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10105"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50105"
+      ],
+      "gt_settlement_id": "SET-20260816-081",
+      "gt_bank_transaction_ids": [
+        "BANK-80081"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -17.7,
+      "gt_actual_bank_amount": 0.0,
+      "gt_root_cause": "CHARGEBACK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00071",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "CHARGEBACK",
+      "engine_gateway_ids": [
+        "TXN-50105"
+      ],
+      "engine_bank_ids": [
+        "BANK-80081"
+      ],
+      "engine_expected_amount": -17.7,
+      "engine_actual_amount": -17.7,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-17.70\nBank credit: \u20b9-17.70\nDifference: \u20b90.00\nGross captured: \u20b9750.00. MDR deducted: \u20b915.00. GST deducted: \u20b92.70.\nChargeback deducted: \u20b9750.00.",
+      "financial_value": 17.7,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0082",
+      "scenario": "CHARGEBACK",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10106"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50106"
+      ],
+      "gt_settlement_id": "SET-20260819-082",
+      "gt_bank_transaction_ids": [
+        "BANK-80082"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -28.32,
+      "gt_actual_bank_amount": 0.0,
+      "gt_root_cause": "CHARGEBACK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00072",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "CHARGEBACK",
+      "engine_gateway_ids": [
+        "TXN-50106"
+      ],
+      "engine_bank_ids": [
+        "BANK-80082"
+      ],
+      "engine_expected_amount": -28.32,
+      "engine_actual_amount": -28.32,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-28.32\nBank credit: \u20b9-28.32\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b924.00. GST deducted: \u20b94.32.\nChargeback deducted: \u20b91,200.00.",
+      "financial_value": 28.32,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0083",
+      "scenario": "CHARGEBACK",
+      "outcome": "CORRECT_RESOLUTION",
+      "gt_erp_order_ids": [
+        "ORD-10107"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50107"
+      ],
+      "gt_settlement_id": "SET-20260821-083",
+      "gt_bank_transaction_ids": [
+        "BANK-80083"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": -114.46,
+      "gt_actual_bank_amount": 0.0,
+      "gt_root_cause": "CHARGEBACK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00073",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "CHARGEBACK",
+      "engine_gateway_ids": [
+        "TXN-50107"
+      ],
+      "engine_bank_ids": [
+        "BANK-80083"
+      ],
+      "engine_expected_amount": -114.46,
+      "engine_actual_amount": -114.46,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9-114.46\nBank credit: \u20b9-114.46\nDifference: \u20b90.00\nGross captured: \u20b94,850.00. MDR deducted: \u20b997.00. GST deducted: \u20b917.46.\nChargeback deducted: \u20b94,850.00.",
+      "financial_value": 114.46,
+      "financial_impact": 0.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0084",
+      "scenario": "PARTIAL_SETTLEMENT",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10108"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50108"
+      ],
+      "gt_settlement_id": "SET-20260825-084",
+      "gt_bank_transaction_ids": [
+        "BANK-80084"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 4735.54,
+      "gt_actual_bank_amount": 2841.32,
+      "gt_root_cause": "PARTIAL_SETTLEMENT",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00074",
+      "engine_status": "REVIEW",
+      "engine_match_type": "PARTIAL",
+      "engine_root_cause": "PARTIAL_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50108"
+      ],
+      "engine_bank_ids": [
+        "BANK-80084"
+      ],
+      "engine_expected_amount": 4735.54,
+      "engine_actual_amount": 2841.32,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Partial settlement payout received in bank.\nExpected net settlement: \u20b94,735.54\nBank credit: \u20b92,841.32\nDifference: \u20b91,894.22\nGross captured: \u20b94,850.00. MDR deducted: \u20b997.00. GST deducted: \u20b917.46.",
+      "financial_value": 4735.54,
+      "financial_impact": 1894.22,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0085",
+      "scenario": "PARTIAL_SETTLEMENT",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10109"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50109"
+      ],
+      "gt_settlement_id": "SET-20260823-085",
+      "gt_bank_transaction_ids": [
+        "BANK-80085"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 18453.96,
+      "gt_actual_bank_amount": 11072.38,
+      "gt_root_cause": "PARTIAL_SETTLEMENT",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00075",
+      "engine_status": "REVIEW",
+      "engine_match_type": "PARTIAL",
+      "engine_root_cause": "PARTIAL_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50109"
+      ],
+      "engine_bank_ids": [
+        "BANK-80085"
+      ],
+      "engine_expected_amount": 18453.96,
+      "engine_actual_amount": 11072.38,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Partial settlement payout received in bank.\nExpected net settlement: \u20b918,453.96\nBank credit: \u20b911,072.38\nDifference: \u20b97,381.58\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.",
+      "financial_value": 18453.96,
+      "financial_impact": 7381.58,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0086",
+      "scenario": "PARTIAL_SETTLEMENT",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10110"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50110"
+      ],
+      "gt_settlement_id": "SET-20260824-086",
+      "gt_bank_transaction_ids": [
+        "BANK-80086"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 4979.64,
+      "gt_root_cause": "PARTIAL_SETTLEMENT",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00076",
+      "engine_status": "REVIEW",
+      "engine_match_type": "PARTIAL",
+      "engine_root_cause": "PARTIAL_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50110"
+      ],
+      "engine_bank_ids": [
+        "BANK-80086"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 4979.64,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Partial settlement payout received in bank.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b94,979.64\nDifference: \u20b93,319.76\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 3319.76,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0087",
+      "scenario": "PARTIAL_SETTLEMENT",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10111"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50111"
+      ],
+      "gt_settlement_id": "SET-20260824-087",
+      "gt_bank_transaction_ids": [
+        "BANK-80087"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 1171.68,
+      "gt_actual_bank_amount": 703.01,
+      "gt_root_cause": "PARTIAL_SETTLEMENT",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00077",
+      "engine_status": "REVIEW",
+      "engine_match_type": "PARTIAL",
+      "engine_root_cause": "PARTIAL_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50111"
+      ],
+      "engine_bank_ids": [
+        "BANK-80087"
+      ],
+      "engine_expected_amount": 1171.68,
+      "engine_actual_amount": 703.01,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Partial settlement payout received in bank.\nExpected net settlement: \u20b91,171.68\nBank credit: \u20b9703.01\nDifference: \u20b9468.67\nGross captured: \u20b91,200.00. MDR deducted: \u20b924.00. GST deducted: \u20b94.32.",
+      "financial_value": 1171.68,
+      "financial_impact": 468.67,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0088",
+      "scenario": "PARTIAL_SETTLEMENT",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10112"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50112"
+      ],
+      "gt_settlement_id": "SET-20260821-088",
+      "gt_bank_transaction_ids": [
+        "BANK-80088"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 34174.0,
+      "gt_actual_bank_amount": 20504.4,
+      "gt_root_cause": "PARTIAL_SETTLEMENT",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00078",
+      "engine_status": "REVIEW",
+      "engine_match_type": "PARTIAL",
+      "engine_root_cause": "PARTIAL_SETTLEMENT",
+      "engine_gateway_ids": [
+        "TXN-50112"
+      ],
+      "engine_bank_ids": [
+        "BANK-80088"
+      ],
+      "engine_expected_amount": 34174.0,
+      "engine_actual_amount": 20504.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Partial settlement payout received in bank.\nExpected net settlement: \u20b934,174.00\nBank credit: \u20b920,504.40\nDifference: \u20b913,669.60\nGross captured: \u20b935,000.00. MDR deducted: \u20b9700.00. GST deducted: \u20b9126.00.",
+      "financial_value": 34174.0,
+      "financial_impact": 13669.6,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0089",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_erp_order_ids": [
+        "ORD-10113"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50113",
+        "TXN-50114"
+      ],
+      "gt_settlement_id": "SET-20260821-089",
+      "gt_bank_transaction_ids": [
+        "BANK-80089"
+      ],
+      "gt_expected_relationship": "1_TO_N",
+      "gt_expected_net_amount": 1171.68,
+      "gt_actual_bank_amount": 1171.68,
+      "gt_root_cause": "DUPLICATE",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00079",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50113"
+      ],
+      "engine_bank_ids": [
+        "BANK-80089"
+      ],
+      "engine_expected_amount": 1171.68,
+      "engine_actual_amount": 1171.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b91,171.68\nBank credit: \u20b91,171.68\nDifference: \u20b90.00\nGross captured: \u20b91,200.00. MDR deducted: \u20b924.00. GST deducted: \u20b94.32.",
+      "financial_value": 1171.68,
+      "financial_impact": 0.0,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50114'}"
+    },
+    {
+      "case_id": "CASE-0090",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_erp_order_ids": [
+        "ORD-10114"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50115",
+        "TXN-50116"
+      ],
+      "gt_settlement_id": "SET-20260825-090",
+      "gt_bank_transaction_ids": [
+        "BANK-80090"
+      ],
+      "gt_expected_relationship": "1_TO_N",
+      "gt_expected_net_amount": 12205.0,
+      "gt_actual_bank_amount": 12205.0,
+      "gt_root_cause": "DUPLICATE",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00080",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50115"
+      ],
+      "engine_bank_ids": [
+        "BANK-80090"
+      ],
+      "engine_expected_amount": 12205.0,
+      "engine_actual_amount": 12205.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b912,205.00\nBank credit: \u20b912,205.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b9250.00. GST deducted: \u20b945.00.",
+      "financial_value": 12205.0,
+      "financial_impact": 0.0,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50116'}"
+    },
+    {
+      "case_id": "CASE-0091",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_erp_order_ids": [
+        "ORD-10115"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50117",
+        "TXN-50118"
+      ],
+      "gt_settlement_id": "SET-20260823-091",
+      "gt_bank_transaction_ids": [
+        "BANK-80091"
+      ],
+      "gt_expected_relationship": "1_TO_N",
+      "gt_expected_net_amount": 2392.18,
+      "gt_actual_bank_amount": 2392.18,
+      "gt_root_cause": "DUPLICATE",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00081",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50117"
+      ],
+      "engine_bank_ids": [
+        "BANK-80091"
+      ],
+      "engine_expected_amount": 2392.18,
+      "engine_actual_amount": 2392.18,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b92,392.18\nBank credit: \u20b92,392.18\nDifference: \u20b90.00\nGross captured: \u20b92,450.00. MDR deducted: \u20b949.00. GST deducted: \u20b98.82.",
+      "financial_value": 2392.18,
+      "financial_impact": 0.0,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50118'}"
+    },
+    {
+      "case_id": "CASE-0092",
+      "scenario": "DUPLICATE",
+      "outcome": "FALSE_POSITIVE",
+      "gt_erp_order_ids": [
+        "ORD-10116"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50119",
+        "TXN-50120"
+      ],
+      "gt_settlement_id": "SET-20260820-092",
+      "gt_bank_transaction_ids": [
+        "BANK-80092"
+      ],
+      "gt_expected_relationship": "1_TO_N",
+      "gt_expected_net_amount": 6053.68,
+      "gt_actual_bank_amount": 6053.68,
+      "gt_root_cause": "DUPLICATE",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00082",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50119"
+      ],
+      "engine_bank_ids": [
+        "BANK-80092"
+      ],
+      "engine_expected_amount": 6053.68,
+      "engine_actual_amount": 6053.68,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b96,053.68\nBank credit: \u20b96,053.68\nDifference: \u20b90.00\nGross captured: \u20b96,200.00. MDR deducted: \u20b9124.00. GST deducted: \u20b922.32.",
+      "financial_value": 6053.68,
+      "financial_impact": 0.0,
+      "failure_reason": "WRONG_GATEWAY_SET",
+      "failure_detail": "Engine missed gateway IDs: {'TXN-50120'}"
+    },
+    {
+      "case_id": "CASE-0093",
+      "scenario": "MISSING_BANK",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10117"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50121"
+      ],
+      "gt_settlement_id": "SET-1042",
+      "gt_bank_transaction_ids": [],
+      "gt_expected_relationship": "1_TO_0",
+      "gt_expected_net_amount": 48200.0,
+      "gt_actual_bank_amount": null,
+      "gt_root_cause": "MISSING_BANK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00101",
+      "engine_status": "REVIEW",
+      "engine_match_type": "MISSING_BANK",
+      "engine_root_cause": "MISSING_BANK",
+      "engine_gateway_ids": [
+        "TXN-50121"
+      ],
+      "engine_bank_ids": [],
+      "engine_expected_amount": 48820.0,
+      "engine_actual_amount": 0.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Gateway settlement exists, but bank credit is missing.\nExpected net settlement: \u20b948,820.00\nDifference: \u20b948,820.00\nGross captured: \u20b950,000.00. MDR deducted: \u20b91,000.00. GST deducted: \u20b9180.00.",
+      "financial_value": 48200.0,
+      "financial_impact": 48820.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0094",
+      "scenario": "MISSING_BANK",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10118"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50122"
+      ],
+      "gt_settlement_id": "SET-20260823-093",
+      "gt_bank_transaction_ids": [],
+      "gt_expected_relationship": "1_TO_0",
+      "gt_expected_net_amount": 18453.96,
+      "gt_actual_bank_amount": null,
+      "gt_root_cause": "MISSING_BANK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00102",
+      "engine_status": "REVIEW",
+      "engine_match_type": "MISSING_BANK",
+      "engine_root_cause": "MISSING_BANK",
+      "engine_gateway_ids": [
+        "TXN-50122"
+      ],
+      "engine_bank_ids": [],
+      "engine_expected_amount": 18453.96,
+      "engine_actual_amount": 0.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Gateway settlement exists, but bank credit is missing.\nExpected net settlement: \u20b918,453.96\nDifference: \u20b918,453.96\nGross captured: \u20b918,900.00. MDR deducted: \u20b9378.00. GST deducted: \u20b968.04.",
+      "financial_value": 18453.96,
+      "financial_impact": 18453.96,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0095",
+      "scenario": "MISSING_BANK",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10119"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50123"
+      ],
+      "gt_settlement_id": "SET-20260820-094",
+      "gt_bank_transaction_ids": [],
+      "gt_expected_relationship": "1_TO_0",
+      "gt_expected_net_amount": 34174.0,
+      "gt_actual_bank_amount": null,
+      "gt_root_cause": "MISSING_BANK",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00103",
+      "engine_status": "REVIEW",
+      "engine_match_type": "MISSING_BANK",
+      "engine_root_cause": "MISSING_BANK",
+      "engine_gateway_ids": [
+        "TXN-50123"
+      ],
+      "engine_bank_ids": [],
+      "engine_expected_amount": 34174.0,
+      "engine_actual_amount": 0.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Gateway settlement exists, but bank credit is missing.\nExpected net settlement: \u20b934,174.00\nDifference: \u20b934,174.00\nGross captured: \u20b935,000.00. MDR deducted: \u20b9700.00. GST deducted: \u20b9126.00.",
+      "financial_value": 34174.0,
+      "financial_impact": 34174.0,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0096",
+      "scenario": "MISSING_ERP",
+      "outcome": "FALSE_POSITIVE",
+      "gt_erp_order_ids": [],
+      "gt_gateway_transaction_ids": [
+        "TXN-50124"
+      ],
+      "gt_settlement_id": "SET-20260819-095",
+      "gt_bank_transaction_ids": [
+        "BANK-80093"
+      ],
+      "gt_expected_relationship": "0_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 8299.4,
+      "gt_root_cause": "MISSING_ERP",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00083",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50124"
+      ],
+      "engine_bank_ids": [
+        "BANK-80093"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 8299.4,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b98,299.40\nDifference: \u20b90.00\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 0.0,
+      "failure_reason": "OTHER",
+      "failure_detail": "Could not determine specific failure reason"
+    },
+    {
+      "case_id": "CASE-0097",
+      "scenario": "MISSING_ERP",
+      "outcome": "FALSE_POSITIVE",
+      "gt_erp_order_ids": [],
+      "gt_gateway_transaction_ids": [
+        "TXN-50125"
+      ],
+      "gt_settlement_id": "SET-20260819-096",
+      "gt_bank_transaction_ids": [
+        "BANK-80094"
+      ],
+      "gt_expected_relationship": "0_TO_1",
+      "gt_expected_net_amount": 12205.0,
+      "gt_actual_bank_amount": 12205.0,
+      "gt_root_cause": "MISSING_ERP",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00084",
+      "engine_status": "RESOLVED",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "MDR_GST",
+      "engine_gateway_ids": [
+        "TXN-50125"
+      ],
+      "engine_bank_ids": [
+        "BANK-80094"
+      ],
+      "engine_expected_amount": 12205.0,
+      "engine_actual_amount": 12205.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b912,205.00\nBank credit: \u20b912,205.00\nDifference: \u20b90.00\nGross captured: \u20b912,500.00. MDR deducted: \u20b9250.00. GST deducted: \u20b945.00.",
+      "financial_value": 12205.0,
+      "financial_impact": 0.0,
+      "failure_reason": "OTHER",
+      "failure_detail": "Could not determine specific failure reason"
+    },
+    {
+      "case_id": "CASE-0098",
+      "scenario": "FEE_ANOMALY",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10120"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50126"
+      ],
+      "gt_settlement_id": "SET-20260819-097",
+      "gt_bank_transaction_ids": [
+        "BANK-80095"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 8299.4,
+      "gt_actual_bank_amount": 7948.35,
+      "gt_root_cause": "FEE_ANOMALY",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00085",
+      "engine_status": "REVIEW",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "FEE_ANOMALY",
+      "engine_gateway_ids": [
+        "TXN-50126"
+      ],
+      "engine_bank_ids": [
+        "BANK-80095"
+      ],
+      "engine_expected_amount": 8299.4,
+      "engine_actual_amount": 7948.35,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b98,299.40\nBank credit: \u20b97,948.35\nDifference: \u20b9351.05\nGross captured: \u20b98,500.00. MDR deducted: \u20b9170.00. GST deducted: \u20b930.60.",
+      "financial_value": 8299.4,
+      "financial_impact": 351.05,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0099",
+      "scenario": "FEE_ANOMALY",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10121"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50127"
+      ],
+      "gt_settlement_id": "SET-20260825-098",
+      "gt_bank_transaction_ids": [
+        "BANK-80096"
+      ],
+      "gt_expected_relationship": "1_TO_1",
+      "gt_expected_net_amount": 732.3,
+      "gt_actual_bank_amount": 701.32,
+      "gt_root_cause": "FEE_ANOMALY",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00086",
+      "engine_status": "REVIEW",
+      "engine_match_type": "FEE_RECONCILED",
+      "engine_root_cause": "FEE_ANOMALY",
+      "engine_gateway_ids": [
+        "TXN-50127"
+      ],
+      "engine_bank_ids": [
+        "BANK-80096"
+      ],
+      "engine_expected_amount": 732.3,
+      "engine_actual_amount": 701.32,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Matched 1:1 with fee deduction verified.\nExpected net settlement: \u20b9732.30\nBank credit: \u20b9701.32\nDifference: \u20b930.98\nGross captured: \u20b9750.00. MDR deducted: \u20b915.00. GST deducted: \u20b92.70.",
+      "financial_value": 732.3,
+      "financial_impact": 30.98,
+      "failure_reason": null,
+      "failure_detail": null
+    },
+    {
+      "case_id": "CASE-0100",
+      "scenario": "AMBIGUOUS",
+      "outcome": "CORRECT_REVIEW",
+      "gt_erp_order_ids": [
+        "ORD-10122",
+        "ORD-10123"
+      ],
+      "gt_gateway_transaction_ids": [
+        "TXN-50128"
+      ],
+      "gt_settlement_id": null,
+      "gt_bank_transaction_ids": [
+        "BANK-80097"
+      ],
+      "gt_expected_relationship": "UNKNOWN",
+      "gt_expected_net_amount": 1464.6,
+      "gt_actual_bank_amount": 1464.6,
+      "gt_root_cause": "INSUFFICIENT_EVIDENCE",
+      "gt_is_exception": true,
+      "engine_reconciliation_id": "REC-00104",
+      "engine_status": "REVIEW",
+      "engine_match_type": "MISSING_ERP",
+      "engine_root_cause": "MISSING_ERP",
+      "engine_gateway_ids": [
+        "TXN-50128"
+      ],
+      "engine_bank_ids": [],
+      "engine_expected_amount": 1464.6,
+      "engine_actual_amount": 0.0,
+      "engine_confidence": 0.99,
+      "engine_explanation": "Gateway transaction exists, but ERP order is missing.\nExpected net settlement: \u20b91,464.60\nBank credit: \u20b90.00\nDifference: \u20b91,464.60\nGross captured: \u20b91,500.00. MDR deducted: \u20b930.00. GST deducted: \u20b95.40.",
+      "financial_value": 1464.6,
+      "financial_impact": 1464.6,
+      "failure_reason": null,
+      "failure_detail": null
+    }
+  ]
+}

@@ -1,0 +1,1313 @@
+[
+  {
+    "settlement_id": "SET-20260825-001",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 2450.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 2450.0,
+    "transaction_ids": [
+      "TXN-50001"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-002",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 750.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 750.0,
+    "transaction_ids": [
+      "TXN-50002"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-003",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 24000.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 24000.0,
+    "transaction_ids": [
+      "TXN-50003"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-004",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 18900.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18900.0,
+    "transaction_ids": [
+      "TXN-50004"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-005",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 6200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6200.0,
+    "transaction_ids": [
+      "TXN-50005"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-006",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 18900.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18900.0,
+    "transaction_ids": [
+      "TXN-50006"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260822-007",
+    "settlement_date": "2026-08-22",
+    "gross_amount": 3999.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 3999.0,
+    "transaction_ids": [
+      "TXN-50007"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260815-008",
+    "settlement_date": "2026-08-15",
+    "gross_amount": 12500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12500.0,
+    "transaction_ids": [
+      "TXN-50008"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-009",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 12500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12500.0,
+    "transaction_ids": [
+      "TXN-50009"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-010",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 3999.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 3999.0,
+    "transaction_ids": [
+      "TXN-50010"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-011",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 6200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6200.0,
+    "transaction_ids": [
+      "TXN-50011"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-012",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 12500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12500.0,
+    "transaction_ids": [
+      "TXN-50012"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-013",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 18900.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18900.0,
+    "transaction_ids": [
+      "TXN-50013"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-014",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 6200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6200.0,
+    "transaction_ids": [
+      "TXN-50014"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-015",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 24000.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 24000.0,
+    "transaction_ids": [
+      "TXN-50015"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-016",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 750.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 750.0,
+    "transaction_ids": [
+      "TXN-50016"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-017",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 18900.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18900.0,
+    "transaction_ids": [
+      "TXN-50017"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-018",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 8500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8500.0,
+    "transaction_ids": [
+      "TXN-50018"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-019",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 8500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8500.0,
+    "transaction_ids": [
+      "TXN-50019"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260822-020",
+    "settlement_date": "2026-08-22",
+    "gross_amount": 6200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6200.0,
+    "transaction_ids": [
+      "TXN-50020"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-021",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 12500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12500.0,
+    "transaction_ids": [
+      "TXN-50021"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-022",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 6200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6200.0,
+    "transaction_ids": [
+      "TXN-50022"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-023",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 8500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8500.0,
+    "transaction_ids": [
+      "TXN-50023"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-024",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 18900.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18900.0,
+    "transaction_ids": [
+      "TXN-50024"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-025",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 8500.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8500.0,
+    "transaction_ids": [
+      "TXN-50025"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260822-026",
+    "settlement_date": "2026-08-22",
+    "gross_amount": 4850.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 4850.0,
+    "transaction_ids": [
+      "TXN-50026"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-027",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 3999.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 3999.0,
+    "transaction_ids": [
+      "TXN-50027"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-028",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 1200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1200.0,
+    "transaction_ids": [
+      "TXN-50028"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-029",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 1200.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1200.0,
+    "transaction_ids": [
+      "TXN-50029"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-030",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 2450.0,
+    "total_mdr": 0.0,
+    "total_gst": 0.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 2450.0,
+    "transaction_ids": [
+      "TXN-50030"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-031",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 3999.0,
+    "total_mdr": 79.98,
+    "total_gst": 14.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 3904.62,
+    "transaction_ids": [
+      "TXN-50031"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-032",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 1200.0,
+    "total_mdr": 24.0,
+    "total_gst": 4.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1171.68,
+    "transaction_ids": [
+      "TXN-50032"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-033",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 12500.0,
+    "total_mdr": 250.0,
+    "total_gst": 45.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12205.0,
+    "transaction_ids": [
+      "TXN-50033"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-034",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 8500.0,
+    "total_mdr": 170.0,
+    "total_gst": 30.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8299.4,
+    "transaction_ids": [
+      "TXN-50034"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-035",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 1200.0,
+    "total_mdr": 24.0,
+    "total_gst": 4.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1171.68,
+    "transaction_ids": [
+      "TXN-50035"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260815-036",
+    "settlement_date": "2026-08-15",
+    "gross_amount": 750.0,
+    "total_mdr": 15.0,
+    "total_gst": 2.7,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 732.3,
+    "transaction_ids": [
+      "TXN-50036"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260815-037",
+    "settlement_date": "2026-08-15",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 23433.6,
+    "transaction_ids": [
+      "TXN-50037"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-038",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 8500.0,
+    "total_mdr": 170.0,
+    "total_gst": 30.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8299.4,
+    "transaction_ids": [
+      "TXN-50038"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-039",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 35000.0,
+    "total_mdr": 700.0,
+    "total_gst": 126.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 34174.0,
+    "transaction_ids": [
+      "TXN-50039"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-040",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 8500.0,
+    "total_mdr": 170.0,
+    "total_gst": 30.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8299.4,
+    "transaction_ids": [
+      "TXN-50040"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-041",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 23433.6,
+    "transaction_ids": [
+      "TXN-50041"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-042",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 23433.6,
+    "transaction_ids": [
+      "TXN-50042"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-043",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 2450.0,
+    "total_mdr": 49.0,
+    "total_gst": 8.82,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 2392.18,
+    "transaction_ids": [
+      "TXN-50043"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-044",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18453.96,
+    "transaction_ids": [
+      "TXN-50044"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-045",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 8500.0,
+    "total_mdr": 170.0,
+    "total_gst": 30.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8299.4,
+    "transaction_ids": [
+      "TXN-50045"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-046",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18453.96,
+    "transaction_ids": [
+      "TXN-50046"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-047",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 1200.0,
+    "total_mdr": 24.0,
+    "total_gst": 4.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1171.68,
+    "transaction_ids": [
+      "TXN-50047"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-048",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 2450.0,
+    "total_mdr": 49.0,
+    "total_gst": 8.82,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 2392.18,
+    "transaction_ids": [
+      "TXN-50048"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-049",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 750.0,
+    "total_mdr": 15.0,
+    "total_gst": 2.7,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 732.3,
+    "transaction_ids": [
+      "TXN-50049"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260822-050",
+    "settlement_date": "2026-08-22",
+    "gross_amount": 750.0,
+    "total_mdr": 15.0,
+    "total_gst": 2.7,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 732.3,
+    "transaction_ids": [
+      "TXN-50050"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260826-051",
+    "settlement_date": "2026-08-26",
+    "gross_amount": 6200.0,
+    "total_mdr": 124.0,
+    "total_gst": 22.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6053.68,
+    "transaction_ids": [
+      "TXN-50051"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260822-052",
+    "settlement_date": "2026-08-22",
+    "gross_amount": 2450.0,
+    "total_mdr": 49.0,
+    "total_gst": 8.82,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 2392.18,
+    "transaction_ids": [
+      "TXN-50052"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-053",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 23433.6,
+    "transaction_ids": [
+      "TXN-50053"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-054",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18453.96,
+    "transaction_ids": [
+      "TXN-50054"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260826-055",
+    "settlement_date": "2026-08-26",
+    "gross_amount": 750.0,
+    "total_mdr": 15.0,
+    "total_gst": 2.7,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 732.3,
+    "transaction_ids": [
+      "TXN-50055"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260827-056",
+    "settlement_date": "2026-08-27",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 23433.6,
+    "transaction_ids": [
+      "TXN-50056"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-057",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 35000.0,
+    "total_mdr": 700.0,
+    "total_gst": 126.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 34174.0,
+    "transaction_ids": [
+      "TXN-50057"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-058",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 3999.0,
+    "total_mdr": 79.98,
+    "total_gst": 14.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 3904.62,
+    "transaction_ids": [
+      "TXN-50058"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-059",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 4850.0,
+    "total_mdr": 97.0,
+    "total_gst": 17.46,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 4735.54,
+    "transaction_ids": [
+      "TXN-50059"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-060",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 23433.6,
+    "transaction_ids": [
+      "TXN-50060"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-061",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 4850.0,
+    "total_mdr": 97.0,
+    "total_gst": 17.46,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 4735.54,
+    "transaction_ids": [
+      "TXN-50061"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-062",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 499.0,
+    "total_mdr": 9.98,
+    "total_gst": 1.8,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 487.22,
+    "transaction_ids": [
+      "TXN-50062"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-063",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 4850.0,
+    "total_mdr": 97.0,
+    "total_gst": 17.46,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 4735.54,
+    "transaction_ids": [
+      "TXN-50063"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-064",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 10000.0,
+    "total_mdr": 200.0,
+    "total_gst": 36.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 9764.0,
+    "transaction_ids": [
+      "TXN-50064",
+      "TXN-50065",
+      "TXN-50066",
+      "TXN-50067"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-065",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 8700.0,
+    "total_mdr": 174.0,
+    "total_gst": 31.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8494.68,
+    "transaction_ids": [
+      "TXN-50068",
+      "TXN-50069",
+      "TXN-50070"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-066",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 14500.0,
+    "total_mdr": 290.0,
+    "total_gst": 52.2,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 14157.8,
+    "transaction_ids": [
+      "TXN-50071",
+      "TXN-50072",
+      "TXN-50073",
+      "TXN-50074"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-067",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 7500.0,
+    "total_mdr": 150.0,
+    "total_gst": 27.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 7323.0,
+    "transaction_ids": [
+      "TXN-50075",
+      "TXN-50076"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-068",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 9200.0,
+    "total_mdr": 184.0,
+    "total_gst": 33.12,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8982.88,
+    "transaction_ids": [
+      "TXN-50077",
+      "TXN-50078",
+      "TXN-50079"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-069",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 9700.0,
+    "total_mdr": 194.0,
+    "total_gst": 34.92,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 9471.08,
+    "transaction_ids": [
+      "TXN-50080",
+      "TXN-50081",
+      "TXN-50082",
+      "TXN-50083"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260818-070",
+    "settlement_date": "2026-08-18",
+    "gross_amount": 8400.0,
+    "total_mdr": 168.0,
+    "total_gst": 30.24,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8201.76,
+    "transaction_ids": [
+      "TXN-50084",
+      "TXN-50085"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-071",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 14700.0,
+    "total_mdr": 294.0,
+    "total_gst": 52.92,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 14353.08,
+    "transaction_ids": [
+      "TXN-50086",
+      "TXN-50087",
+      "TXN-50088",
+      "TXN-50089"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-072",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 16400.0,
+    "total_mdr": 328.0,
+    "total_gst": 59.04,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 16012.96,
+    "transaction_ids": [
+      "TXN-50090",
+      "TXN-50091",
+      "TXN-50092",
+      "TXN-50093"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-073",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 11000.0,
+    "total_mdr": 220.0,
+    "total_gst": 39.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 10740.4,
+    "transaction_ids": [
+      "TXN-50094",
+      "TXN-50095",
+      "TXN-50096",
+      "TXN-50097"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-074",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 18900.0,
+    "chargebacks": 0.0,
+    "net_settlement": -446.04,
+    "transaction_ids": [
+      "TXN-50098"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-075",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 2450.0,
+    "total_mdr": 49.0,
+    "total_gst": 8.82,
+    "refunds": 1225.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1167.18,
+    "transaction_ids": [
+      "TXN-50099"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260817-076",
+    "settlement_date": "2026-08-17",
+    "gross_amount": 12500.0,
+    "total_mdr": 250.0,
+    "total_gst": 45.0,
+    "refunds": 6250.0,
+    "chargebacks": 0.0,
+    "net_settlement": 5955.0,
+    "transaction_ids": [
+      "TXN-50100"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-077",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 2450.0,
+    "total_mdr": 49.0,
+    "total_gst": 8.82,
+    "refunds": 2450.0,
+    "chargebacks": 0.0,
+    "net_settlement": -57.82,
+    "transaction_ids": [
+      "TXN-50101"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-078",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 9450.0,
+    "chargebacks": 0.0,
+    "net_settlement": 9003.96,
+    "transaction_ids": [
+      "TXN-50102"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-079",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 24000.0,
+    "total_mdr": 480.0,
+    "total_gst": 86.4,
+    "refunds": 0.0,
+    "chargebacks": 24000.0,
+    "net_settlement": -566.4,
+    "transaction_ids": [
+      "TXN-50103"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-080",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 35000.0,
+    "total_mdr": 700.0,
+    "total_gst": 126.0,
+    "refunds": 0.0,
+    "chargebacks": 35000.0,
+    "net_settlement": -826.0,
+    "transaction_ids": [
+      "TXN-50104"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260816-081",
+    "settlement_date": "2026-08-16",
+    "gross_amount": 750.0,
+    "total_mdr": 15.0,
+    "total_gst": 2.7,
+    "refunds": 0.0,
+    "chargebacks": 750.0,
+    "net_settlement": -17.7,
+    "transaction_ids": [
+      "TXN-50105"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-082",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 1200.0,
+    "total_mdr": 24.0,
+    "total_gst": 4.32,
+    "refunds": 0.0,
+    "chargebacks": 1200.0,
+    "net_settlement": -28.32,
+    "transaction_ids": [
+      "TXN-50106"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-083",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 4850.0,
+    "total_mdr": 97.0,
+    "total_gst": 17.46,
+    "refunds": 0.0,
+    "chargebacks": 4850.0,
+    "net_settlement": -114.46,
+    "transaction_ids": [
+      "TXN-50107"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-084",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 4850.0,
+    "total_mdr": 97.0,
+    "total_gst": 17.46,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 4735.54,
+    "transaction_ids": [
+      "TXN-50108"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-085",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18453.96,
+    "transaction_ids": [
+      "TXN-50109"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-086",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 8500.0,
+    "total_mdr": 170.0,
+    "total_gst": 30.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8299.4,
+    "transaction_ids": [
+      "TXN-50110"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260824-087",
+    "settlement_date": "2026-08-24",
+    "gross_amount": 1200.0,
+    "total_mdr": 24.0,
+    "total_gst": 4.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1171.68,
+    "transaction_ids": [
+      "TXN-50111"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-088",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 35000.0,
+    "total_mdr": 700.0,
+    "total_gst": 126.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 34174.0,
+    "transaction_ids": [
+      "TXN-50112"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260821-089",
+    "settlement_date": "2026-08-21",
+    "gross_amount": 1200.0,
+    "total_mdr": 24.0,
+    "total_gst": 4.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 1171.68,
+    "transaction_ids": [
+      "TXN-50113"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-090",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 12500.0,
+    "total_mdr": 250.0,
+    "total_gst": 45.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12205.0,
+    "transaction_ids": [
+      "TXN-50115"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-091",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 2450.0,
+    "total_mdr": 49.0,
+    "total_gst": 8.82,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 2392.18,
+    "transaction_ids": [
+      "TXN-50117"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-092",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 6200.0,
+    "total_mdr": 124.0,
+    "total_gst": 22.32,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 6053.68,
+    "transaction_ids": [
+      "TXN-50119"
+    ]
+  },
+  {
+    "settlement_id": "SET-1042",
+    "settlement_date": "2026-08-22",
+    "gross_amount": 50000.0,
+    "total_mdr": 1525.42,
+    "total_gst": 274.58,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 48200.0,
+    "transaction_ids": [
+      "TXN-50121"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260823-093",
+    "settlement_date": "2026-08-23",
+    "gross_amount": 18900.0,
+    "total_mdr": 378.0,
+    "total_gst": 68.04,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 18453.96,
+    "transaction_ids": [
+      "TXN-50122"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260820-094",
+    "settlement_date": "2026-08-20",
+    "gross_amount": 35000.0,
+    "total_mdr": 700.0,
+    "total_gst": 126.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 34174.0,
+    "transaction_ids": [
+      "TXN-50123"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-095",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 8500.0,
+    "total_mdr": 170.0,
+    "total_gst": 30.6,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 8299.4,
+    "transaction_ids": [
+      "TXN-50124"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-096",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 12500.0,
+    "total_mdr": 250.0,
+    "total_gst": 45.0,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 12205.0,
+    "transaction_ids": [
+      "TXN-50125"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260819-097",
+    "settlement_date": "2026-08-19",
+    "gross_amount": 8500.0,
+    "total_mdr": 467.5,
+    "total_gst": 84.15,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 7948.35,
+    "transaction_ids": [
+      "TXN-50126"
+    ]
+  },
+  {
+    "settlement_id": "SET-20260825-098",
+    "settlement_date": "2026-08-25",
+    "gross_amount": 750.0,
+    "total_mdr": 41.25,
+    "total_gst": 7.43,
+    "refunds": 0.0,
+    "chargebacks": 0.0,
+    "net_settlement": 701.32,
+    "transaction_ids": [
+      "TXN-50127"
+    ]
+  }
+]
