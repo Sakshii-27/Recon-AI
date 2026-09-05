@@ -1,0 +1,57 @@
+[
+  {
+    "_metadata": "SYNTHETIC — RAG historical cases are knowledge examples only and are not drawn from the held-out benchmark ground truth.",
+    "case_id": "HIST-001",
+    "exception_type": "DUPLICATE",
+    "transaction_pattern": "Two gateway captures for the same order_reference, only one ERP order. Amount is identical.",
+    "evidence": {
+      "erp": ["Order WEB-999 for 1500.00"],
+      "gateway": ["Capture 1 for 1500.00 at 10:01", "Capture 2 for 1500.00 at 10:02"],
+      "bank": ["Deposit for 1470.00"]
+    },
+    "human_resolution": "LIKELY_DUPLICATE",
+    "reasoning": "The user clicked checkout twice in rapid succession. Gateway processed both, but ERP only registered the first. One gateway transaction matches the bank deposit, the other is an excess capture.",
+    "distinguishing_signals": ["Close timestamps", "Identical amounts", "Only one bank deposit"]
+  },
+  {
+    "_metadata": "SYNTHETIC — RAG historical cases are knowledge examples only and are not drawn from the held-out benchmark ground truth.",
+    "case_id": "HIST-002",
+    "exception_type": "BATCH_SETTLEMENT",
+    "transaction_pattern": "Three gateway captures sum to exactly one bank deposit. No single capture matches.",
+    "evidence": {
+      "gateway": ["Capture A: net 100", "Capture B: net 200", "Capture C: net 300"],
+      "bank": ["Deposit for 600"]
+    },
+    "human_resolution": "VALID_BATCH_SETTLEMENT",
+    "reasoning": "The sum of the three gateway expected net settlements (100 + 200 + 300) exactly matches the single bank deposit of 600.",
+    "distinguishing_signals": ["Exact mathematical sum match", "Same settlement date"]
+  },
+  {
+    "_metadata": "SYNTHETIC — RAG historical cases are knowledge examples only and are not drawn from the held-out benchmark ground truth.",
+    "case_id": "HIST-003",
+    "exception_type": "MISSING_ERP",
+    "transaction_pattern": "Gateway capture and bank deposit exist, but no ERP order found.",
+    "evidence": {
+      "erp": [],
+      "gateway": ["Capture for 2500.00, ref WEB-888"],
+      "bank": ["Deposit for 2450.00"]
+    },
+    "human_resolution": "LIKELY_MISSING_ERP",
+    "reasoning": "Payment was successfully processed and settled to the bank, but the order webhook to the ERP failed. Order needs to be manually created.",
+    "distinguishing_signals": ["Empty ERP evidence", "Valid Gateway and Bank evidence"]
+  },
+  {
+    "_metadata": "SYNTHETIC — RAG historical cases are knowledge examples only and are not drawn from the held-out benchmark ground truth.",
+    "case_id": "HIST-004",
+    "exception_type": "DUPLICATE",
+    "transaction_pattern": "Two gateway transactions, one failed one captured.",
+    "evidence": {
+      "erp": ["Order WEB-777 for 1000.00"],
+      "gateway": ["Failed transaction for 1000.00", "Captured transaction for 1000.00"],
+      "bank": ["Deposit for 980.00"]
+    },
+    "human_resolution": "INSUFFICIENT_EVIDENCE",
+    "reasoning": "While there are two gateway transactions, one is FAILED. This is a normal retry, not a duplicate capture. The single captured transaction matches the ERP. Re-evaluate as an exact match.",
+    "distinguishing_signals": ["FAILED status on one transaction"]
+  }
+]

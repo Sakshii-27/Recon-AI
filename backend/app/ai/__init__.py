@@ -1,0 +1,1 @@
+"""AI resolver abstraction."""
