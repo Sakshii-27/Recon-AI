@@ -11,7 +11,7 @@
 [![Gemini](https://img.shields.io/badge/Gemini_2.5-Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev)
 [![Tests](https://img.shields.io/badge/Tests-67_Passed-brightgreen?logo=pytest&logoColor=white)](#-testing--benchmark)
 
-*Match transactions across ERP, Gateway, and Bank in milliseconds — investigate exceptions with auditable AI reasoning.*
+*Match transactions across ERP, Gateway, and Bank in milliseconds - investigate exceptions with auditable AI reasoning.*
 
 </div>
 
@@ -23,21 +23,21 @@ Every business that accepts digital payments must reconcile three disconnected s
 
 | Source | What It Records | Example |
 |--------|----------------|---------|
-| **ERP** (SAP, Tally) | Customer placed an order | *"Order #1234 — ₹10,000"* |
+| **ERP** (SAP, Tally) | Customer placed an order | *"Order #1234 - ₹10,000"* |
 | **Payment Gateway** (Razorpay) | Payment captured, fees deducted, amount settled | *"Captured ₹10,000 → Fees ₹236 → Settled ₹9,764"* |
 | **Bank Statement** | Money deposited into the account | *"Credit: ₹9,764"* |
 
-Today, finance teams manually cross-check these in Excel — row by row, file by file. This leads to:
-- 💸 **Revenue leakage** — gateway fee overcharges go unnoticed
-- 🔁 **Duplicate charges** — customer disputes pile up
-- 🕳️ **Missing settlements** — ₹10L+ goes undetected for weeks
-- 📉 **Unreliable cash forecasts** — partial settlements break projections
+Today, finance teams manually cross-check these in Excel - row by row, file by file. This leads to:
+- 💸 **Revenue leakage** - gateway fee overcharges go unnoticed
+- 🔁 **Duplicate charges** - customer disputes pile up
+- 🕳️ **Missing settlements** - ₹10L+ goes undetected for weeks
+- 📉 **Unreliable cash forecasts** - partial settlements break projections
 
 ---
 
 ## The Solution
 
-ReconPulse AI uses a **hybrid architecture** — a deterministic engine handles the predictable 90%, while AI investigates the complex 10%.
+ReconPulse AI uses a **hybrid architecture** - a deterministic engine handles the predictable 90%, while AI investigates the complex 10%.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -49,7 +49,7 @@ ReconPulse AI uses a **hybrid architecture** — a deterministic engine handles 
 └──────────────────────────────┴──────────────────────────────────┘
 ```
 
-> **The Golden Rule:** The engine is deterministic, the AI is advisory. AI *never* auto-resolves financial decisions — `human_review_required` is always `True`.
+> **The Golden Rule:** The engine is deterministic, the AI is advisory. AI *never* auto-resolves financial decisions - `human_review_required` is always `True`.
 
 ---
 
@@ -108,22 +108,22 @@ User clicks "Run Reconciliation" (1,000 records, seed: 42)
 
 ### The 3 Layers Explained
 
-**1. Frontend — The Control Room** (Next.js 16)
-- **Dashboard:** Real-time KPIs — match rate, cash position, exception breakdown
+**1. Frontend - The Control Room** (Next.js 16)
+- **Dashboard:** Real-time KPIs - match rate, cash position, exception breakdown
 - **Exception Workbench:** Click into any exception, see evidence side-by-side, trigger AI investigation
-- **Finance Copilot:** Ask *"What's the total unreconciled value?"* — get grounded answers instantly
+- **Finance Copilot:** Ask *"What's the total unreconciled value?"* - get grounded answers instantly
 
-**2. Backend — The Brain** (FastAPI + Python)
+**2. Backend - The Brain** (FastAPI + Python)
 - **Tier 1:** Exact ID matching. Gateway Transaction ID found in the bank narration? → 100% confidence match.
 - **Tier 2:** Financial validation. Independently calculates `Gross − MDR − GST ± Refunds ± Chargebacks` and checks if it matches the bank deposit to within ₹0.01.
 - **Tier 3:** Batch settlement. A gateway bundles 5 transactions into one bank deposit. This tier sums all 5 expected net amounts and matches the total against the single bank entry.
 - **Exception Detector:** Anything left unmatched is classified as `MISSING_BANK`, `MISSING_ERP`, or `DUPLICATE`.
 
-**3. AI Investigator — The Detective** (LangGraph + Gemini)
-1. **Evidence Analyzer** — Parses structured financial evidence, flags anomalies
-2. **Policy RAG** — Retrieves relevant company financial policies from ChromaDB
-3. **Historical Comparator** — Finds similar past exceptions and how they were resolved
-4. **Risk Validator** — Independent safety audit. Can only *downgrade* AI decisions to `HUMAN_REVIEW`. Never escalates.
+**3. AI Investigator - The Detective** (LangGraph + Gemini)
+1. **Evidence Analyzer** - Parses structured financial evidence, flags anomalies
+2. **Policy RAG** - Retrieves relevant company financial policies from ChromaDB
+3. **Historical Comparator** - Finds similar past exceptions and how they were resolved
+4. **Risk Validator** - Independent safety audit. Can only *downgrade* AI decisions to `HUMAN_REVIEW`. Never escalates.
 
 ---
 
@@ -154,7 +154,7 @@ The engine is evaluated against isolated ground truth data that it **never sees*
 | **Value Reconciled** | 88.46% |
 | **Safe Autonomous Precision** | 91.33% |
 
-> Ground truth is generated alongside the synthetic data but is strictly isolated — the engine has zero access to it. This ensures benchmark metrics are honest and unbiased.
+> Ground truth is generated alongside the synthetic data but is strictly isolated - the engine has zero access to it. This ensures benchmark metrics are honest and unbiased.
 
 ---
 
@@ -163,7 +163,7 @@ The engine is evaluated against isolated ground truth data that it **never sees*
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
-- Google Gemini API Key *(optional — system runs in mock mode without it)*
+- Google Gemini API Key *(optional - system runs in mock mode without it)*
 
 ### 1. Clone & Setup Backend
 
@@ -178,7 +178,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 # Install dependencies
 pip install fastapi uvicorn pydantic langchain langgraph langchain-google-genai chromadb python-dotenv pytest httpx
 
-# Configure environment (optional — for real AI features)
+# Configure environment (optional - for real AI features)
 echo "AI_PROVIDER=gemini" > .env
 echo "AI_API_KEY=your_gemini_api_key_here" >> .env
 echo "AI_MODEL=gemini-2.5-flash" >> .env
@@ -259,7 +259,7 @@ Recon-AI/
 | **Ground truth is strictly isolated** | The engine never sees ground truth. Benchmark metrics are honest. |
 | **AI never auto-resolves** | `human_review_required = True` always. Prevents hallucination-driven financial losses. |
 | **Risk Validator can only downgrade** | The safety node can reject AI proposals, never escalate them. |
-| **Graceful fallback** | Missing API key or AI timeout? System returns `INSUFFICIENT_EVIDENCE` — never fabricates mock data in production. |
+| **Graceful fallback** | Missing API key or AI timeout? System returns `INSUFFICIENT_EVIDENCE` - never fabricates mock data in production. |
 | **LangGraph over simple prompting** | Breaking reasoning into Evidence → Policy → History → Risk makes each step auditable. |
 
 ---
